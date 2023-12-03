@@ -41,16 +41,11 @@ fn max_color_cubes(line: &str) -> (u32, (u32, u32, u32)) {
     (game_id, max)
 }
 
-fn has_enough_cubes(r: u32, g: u32, b: u32, cubes: &(u32, (u32, u32, u32))) -> bool {
-    cubes.1 .0 <= r && cubes.1 .1 <= g && cubes.1 .2 <= b
-}
-
 pub fn cube_conundrum(path: &Path) -> u32 {
     read_to_string(path)
         .unwrap()
         .lines()
         .map(max_color_cubes)
-        .filter(|x| has_enough_cubes(12, 13, 14, x))
-        .map(|x| x.0)
+        .map(|x| x.1 .0 * x.1 .1 * x.1 .2)
         .sum()
 }
