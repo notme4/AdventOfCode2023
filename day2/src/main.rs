@@ -1,7 +1,7 @@
 pub mod part1;
 pub mod part2;
 
-use crate::part1::cube_conundrum;
+use crate::part2::cube_conundrum;
 
 use std::path::Path;
 
