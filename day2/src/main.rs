@@ -1,3 +1,13 @@
+pub mod part1;
+pub mod part2;
+
+use crate::part1::cube_conundrum;
+
+use std::path::Path;
+
 fn main() {
+    let path = Path::new("resources/example_data.txt");
+    // let path = Path::new("resources/exampleData2.txt");
+    // let path = Path::new("resources/myData.txt");
     println!("Hello, world!");
 }
