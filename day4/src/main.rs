@@ -21,13 +21,16 @@ struct Args {
 fn main() {
     let args = Args::parse();
 
-    let path = Path::new(&("resources/".to_owned() + &args.file));
+    let binding = ("resources/".to_owned() + &args.file).to_owned();
+    
+    eprintln!("\n`{}'\n", binding);
+    let path = Path::new(&binding);
 
-    println!("{}",
+    println!("{}\n",
         if args.part == 1 {
-            1
+            part1::scratch_cards(path)
         } else if args.part == 2 {
-            2
+            part2::scratch_cards(path)
         } else {
             panic!("invalid part: `{}'", args.part)
         }
