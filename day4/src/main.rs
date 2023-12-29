@@ -1,7 +1,6 @@
 pub mod part1;
 pub mod part2;
 
-
 use clap::Parser;
 use std::path::Path;
 
@@ -22,11 +21,12 @@ fn main() {
     let args = Args::parse();
 
     let binding = ("resources/".to_owned() + &args.file).to_owned();
-    
+
     eprintln!("\n`{}'\n", binding);
     let path = Path::new(&binding);
 
-    println!("{}\n",
+    println!(
+        "{}\n",
         if args.part == 1 {
             part1::scratch_cards(path)
         } else if args.part == 2 {
