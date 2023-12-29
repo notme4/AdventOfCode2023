@@ -6,13 +6,8 @@ fn is_symbol(c: &u8) -> bool {
     c.is_ascii_punctuation() && *c != ('.' as u8)
 }
 
-fn find_part_numbers_line(
-    prev_line: &str,
-    current_line: &str,
-    next_line: &str,
-    line_num: usize,
-) -> u32 {
-    if line_num == 0 {
+fn find_part_numbers_line(prev_line: &str, current_line: &str, next_line: &str) -> u32 {
+    if current_line == "" {
         return 0;
     }
     let mut sum: u32 = 0;
@@ -28,13 +23,13 @@ fn find_part_numbers_line(
             let prev_chars = prev_line.as_bytes();
             let current_chars = current_line.as_bytes();
             let next_chars = next_line.as_bytes();
-            if line_num > 1 && i > 1 && is_symbol(&prev_chars[i - 1]) {
+            if prev_line != "" && i > 1 && is_symbol(&prev_chars[i - 1]) {
                 println!("symbol is: {}", (prev_chars[i - 1] as char));
                 b = true;
-            } else if line_num > 1 && is_symbol(&prev_chars[i]) {
+            } else if prev_line != "" && is_symbol(&prev_chars[i]) {
                 println!("symbol is: {}", (prev_chars[i] as char));
                 b = true;
-            } else if line_num > 1 && i < prev_chars.len() - 1 && is_symbol(&prev_chars[i + 1]) {
+            } else if prev_line != "" && i < prev_chars.len() - 1 && is_symbol(&prev_chars[i + 1]) {
                 println!("symbol is: {}", (prev_chars[i + 1] as char));
                 b = true;
             } else if i > 0 && is_symbol(&current_chars[i - 1]) {
@@ -71,15 +66,13 @@ fn find_part_numbers_line(
 fn find_part_numbers(lines: Lines) -> u32 {
     let mut prev_line = "";
     let mut current_line = "";
-    let mut i: usize = 0;
     let mut sum = 0;
-    for (ii, next_line) in lines.enumerate() {
-        i = ii;
-        sum += find_part_numbers_line(prev_line, current_line, next_line, i);
+    for next_line in lines {
+        sum += find_part_numbers_line(prev_line, current_line, next_line);
         prev_line = current_line;
         current_line = next_line;
     }
-    sum += find_part_numbers_line(prev_line, current_line, "", i + 1);
+    sum += find_part_numbers_line(prev_line, current_line, "");
     return sum;
 }
 
