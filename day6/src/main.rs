@@ -30,7 +30,7 @@ fn main() {
         if args.part == 1 {
             part1::find_margin_of_error(path)
         } else if args.part == 2 {
-            part2::func(path)
+            part2::find_margin_of_error(path)
         } else {
             panic!("invalid part: `{}'", args.part)
         }

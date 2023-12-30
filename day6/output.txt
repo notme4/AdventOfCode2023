@@ -1,25 +1,30 @@
-    Finished dev [unoptimized + debuginfo] target(s) in 0.05s
-     Running `target/debug/day6 my_data.txt 1`
+warning: unreachable statement
+  --> src/part2.rs:48:5
+   |
+47 |     return margin_of_error_race((time, distance));
+   |     --------------------------------------------- any code following this expression is unreachable
+48 |     todo!();
+   |     ^^^^^^^ unreachable statement
+   |
+   = note: `#[warn(unreachable_code)]` on by default
+   = note: this warning originates in the macro `todo` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+warning: function `to_vec_i32` is never used
+ --> src/part2.rs:4:4
+  |
+4 | fn to_vec_i32(line: &str) -> Vec<i32> {
+  |    ^^^^^^^^^^
+  |
+  = note: `#[warn(dead_code)]` on by default
+
+warning: `day6` (bin "day6") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.03s
+     Running `target/debug/day6 my_data.txt 2`
 
 `resources/my_data.txt'
 
-t: 59
-t: 70
-t: 78
-t: 78
-d: 430
-d: 1218
-d: 1213
-d: 1276
-time: 59, dist: 430.0001
-discriminant: 41.96426575075513
-result: 50 - 8 = 42
-time: 70, dist: 1218.0001
-discriminant: 5.2914648255469015
-result: 37 - 32 = 5
-time: 78, dist: 1213.0001
-discriminant: 35.099851851539206
-result: 56 - 21 = 35
-time: 78, dist: 1276.0001
-discriminant: 31.304945296230756
-result: 54 - 23 = 31
+59707878
+430121812131276
+time: 59707878, dist: 430121812131276
+discriminant: 42948148.35051425
+result: 51328013 - 8379864 = 42948149

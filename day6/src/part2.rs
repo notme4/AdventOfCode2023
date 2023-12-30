@@ -8,7 +8,7 @@ fn to_vec_i32(line: &str) -> Vec<i32> {
         .collect()
 }
 
-fn margin_of_error_race(z: (i32, i32)) -> f64 {
+fn margin_of_error_race(z: (f64, f64)) -> f64 {
     let (time, dist) = z;
     let time = f64::from(time);
     let dist = f64::from(dist) + 0.0001;
@@ -30,17 +30,20 @@ fn margin_of_error_race(z: (i32, i32)) -> f64 {
 pub fn find_margin_of_error(path: &Path) -> f64 {
     let file_data = read_to_string(path).unwrap();
     let (time_str, dist_str) = file_data.split_at(file_data.find("\n").unwrap() + 1);
-    let times = to_vec_i32(time_str);
-    let distances = to_vec_i32(dist_str);
-    for t in &times {
-        eprintln!("t: {}", t);
-    }
-    for d in &distances {
-        eprintln!("d: {}", d);
-    }
-    return times
-        .into_iter()
-        .zip(distances)
-        .map(margin_of_error_race)
-        .fold(1.0, |val1, val2| val1 * val2);
+    let time = time_str
+        .trim()
+        .split(" ")
+        .fold("".to_owned(), |val1, val2| val1.to_owned() + val2)
+        .parse::<f64>()
+        .unwrap();
+    let distance = dist_str
+        .trim()
+        .split(" ")
+        .fold("".to_owned(), |val1, val2| val1.to_owned() + val2)
+        .parse::<f64>()
+        .unwrap();
+    eprintln!("{}", time);
+    eprintln!("{}", distance);
+    return margin_of_error_race((time, distance));
+    todo!();
 }
