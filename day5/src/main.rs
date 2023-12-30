@@ -30,7 +30,7 @@ fn main() {
         if args.part == 1 {
             part1::lowest_seed_location(path)
         } else if args.part == 2 {
-            part2::func(path)
+            part2::lowest_seed_location(path)
         } else {
             panic!("invalid part: `{}'", args.part)
         }

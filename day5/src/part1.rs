@@ -1,17 +1,17 @@
 use std::fs::read_to_string;
 use std::path::Path;
 
-type Mapping_Zone = (u32, u32, u32); // start from, start to, len
+type MappingZone = (u32, u32, u32); // start from, start to, len
 type Id<'a> = (u32, u32, &'a str); // seedNum, current id, id type
 
 struct Mapping<'a> {
     from: &'a str,
     to: &'a str,
 
-    mapping_zones: Vec<Mapping_Zone>,
+    mapping_zones: Vec<MappingZone>,
 }
 
-fn in_mapping_zone(id: u32, mapping: &Mapping_Zone) -> bool {
+fn in_mapping_zone(id: u32, mapping: &MappingZone) -> bool {
     return mapping.0 < id && (id as u64) < (mapping.0 as u64) + (mapping.2 as u64);
 }
 
@@ -29,7 +29,7 @@ fn get_seed_numbers(seed_str: &str) -> Vec<(u32, u32, &str)> {
         .collect();
 }
 
-fn get_mapping_zone(line: &str) -> Option<Mapping_Zone> {
+fn get_mapping_zone(line: &str) -> Option<MappingZone> {
     let v = to_vec_u32(line);
     if v.len() < 3 {
         return None;
@@ -52,7 +52,10 @@ fn get_mapping<'a>(mapping_str: &&'a str) -> Mapping<'a> {
 
 fn convert_id<'a>(id: &Id, mapping: &Mapping<'a>) -> Id<'a> {
     if id.2 != mapping.from {
-        panic!("invalid conversion attempt: id: {}, mapping: {}, {}", id.2, mapping.from, mapping.to);
+        panic!(
+            "invalid conversion attempt: id: {}, mapping: {}, {}",
+            id.2, mapping.from, mapping.to
+        );
     }
     let map: Vec<_> = mapping
         .mapping_zones
@@ -60,27 +63,36 @@ fn convert_id<'a>(id: &Id, mapping: &Mapping<'a>) -> Id<'a> {
         .filter(|val| in_mapping_zone(id.1, val))
         .collect();
     if map.len() == 0 {
-        eprintln!("({}, {}, {}) -> ({}, {}, {})", id.0, id.1, id.2, id.0, id.1, mapping.to);
+        eprintln!(
+            "({}, {}, {}) -> ({}, {}, {})",
+            id.0, id.1, id.2, id.0, id.1, mapping.to
+        );
         return (id.0, id.1, mapping.to);
     }
     let new_id = id.1 - map[0].0 + map[0].1;
     eprintln!("map: {}, {}, {}", map[0].0, map[0].1, map[0].2);
-    eprintln!("({}, {}, {}) -> ({}, {}, {})", id.0, id.1, id.2, id.0, new_id, mapping.to);
+    eprintln!(
+        "({}, {}, {}) -> ({}, {}, {})",
+        id.0, id.1, id.2, id.0, new_id, mapping.to
+    );
     return (id.0, new_id, mapping.to);
 }
 
-pub fn lowest_seed_location(path: &Path) -> u32 {
+pub fn lowest_seed_location(path: &Path) -> u64 {
     let file_data = read_to_string(path).unwrap();
     let categories: Vec<&str> = file_data.split("\n\n").collect();
     let seed_numbers = get_seed_numbers(categories[0]);
     let mappings: Vec<Mapping> = categories[1..].iter().map(get_mapping).collect();
-    let mut seeds = seed_numbers.iter().map(|seed| {
-        let mut s = *seed;
-        for mapping in &mappings {
-            s = convert_id(&s, &mapping);
-        }
-        return s;
-    }).collect::<Vec<_>>();
-    seeds.sort_by(|val1, val2| val1.1.partial_cmp(&val2.1).unwrap() );
-    return seeds[0].1;
+    let mut seeds = seed_numbers
+        .iter()
+        .map(|seed| {
+            let mut s = *seed;
+            for mapping in &mappings {
+                s = convert_id(&s, &mapping);
+            }
+            return s;
+        })
+        .collect::<Vec<_>>();
+    seeds.sort_by(|val1, val2| val1.1.partial_cmp(&val2.1).unwrap());
+    return seeds[0].1.into();
 }
