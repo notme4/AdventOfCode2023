@@ -1,0 +1,25 @@
+    Finished dev [unoptimized + debuginfo] target(s) in 0.05s
+     Running `target/debug/day6 my_data.txt 1`
+
+`resources/my_data.txt'
+
+t: 59
+t: 70
+t: 78
+t: 78
+d: 430
+d: 1218
+d: 1213
+d: 1276
+time: 59, dist: 430.0001
+discriminant: 41.96426575075513
+result: 50 - 8 = 42
+time: 70, dist: 1218.0001
+discriminant: 5.2914648255469015
+result: 37 - 32 = 5
+time: 78, dist: 1213.0001
+discriminant: 35.099851851539206
+result: 56 - 21 = 35
+time: 78, dist: 1276.0001
+discriminant: 31.304945296230756
+result: 54 - 23 = 31
