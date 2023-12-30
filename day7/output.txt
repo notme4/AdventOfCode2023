@@ -1,0 +1,6006 @@
+   Compiling day7 v0.1.0 (/Users/connorfunk/GitHub/AdventOfCode2023/day7)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.71s
+     Running `target/debug/day7 my_data.txt 1`
+
+`resources/my_data.txt'
+
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+offset: 0
+offset: 4
+offset: 8
+offset: 12
+offset: 16
+0 CampelCard { hand: "2495T", value: 0x6CA594, bid: 207 }
+1 CampelCard { hand: "24JK6", value: 0x6CA318, bid: 53 }
+2 CampelCard { hand: "26Q9K", value: 0x6C8251, bid: 816 }
+3 CampelCard { hand: "2T764", value: 0x6C478A, bid: 202 }
+4 CampelCard { hand: "2Q634", value: 0x6C28BA, bid: 383 }
+5 CampelCard { hand: "324J9", value: 0x6BCA35, bid: 23 }
+6 CampelCard { hand: "325JA", value: 0x6BC930, bid: 612 }
+7 CampelCard { hand: "35687", value: 0x6B9867, bid: 442 }
+8 CampelCard { hand: "35JA6", value: 0x6B9308, bid: 262 }
+9 CampelCard { hand: "374AT", value: 0x6B7A04, bid: 555 }
+10 CampelCard { hand: "3875K", value: 0x6B6791, bid: 937 }
+11 CampelCard { hand: "39845", value: 0x6B56A9, bid: 290 }
+12 CampelCard { hand: "3J6Q2", value: 0x6B382C, bid: 80 }
+13 CampelCard { hand: "3A84J", value: 0x6B06A3, bid: 393 }
+14 CampelCard { hand: "425K8", value: 0x6AC916, bid: 222 }
+15 CampelCard { hand: "42658", value: 0x6AC896, bid: 717 }
+16 CampelCard { hand: "4285A", value: 0x6AC690, bid: 32 }
+17 CampelCard { hand: "43J86", value: 0x6AB368, bid: 758 }
+18 CampelCard { hand: "4579K", value: 0x6A9751, bid: 653 }
+19 CampelCard { hand: "4736J", value: 0x6A7B83, bid: 45 }
+20 CampelCard { hand: "478KT", value: 0x6A7614, bid: 299 }
+21 CampelCard { hand: "47KQT", value: 0x6A7124, bid: 992 }
+22 CampelCard { hand: "4925J", value: 0x6A5C93, bid: 756 }
+23 CampelCard { hand: "497Q2", value: 0x6A572C, bid: 166 }
+24 CampelCard { hand: "4T23Q", value: 0x6A4CB2, bid: 330 }
+25 CampelCard { hand: "4T27J", value: 0x6A4C73, bid: 785 }
+26 CampelCard { hand: "4T3K9", value: 0x6A4B15, bid: 514 }
+27 CampelCard { hand: "4T96A", value: 0x6A4580, bid: 311 }
+28 CampelCard { hand: "4J586", value: 0x6A3968, bid: 784 }
+29 CampelCard { hand: "4J627", value: 0x6A38C7, bid: 679 }
+30 CampelCard { hand: "4QT8K", value: 0x6A2461, bid: 211 }
+31 CampelCard { hand: "4KQJ6", value: 0x6A1238, bid: 582 }
+32 CampelCard { hand: "4A3KT", value: 0x6A0B14, bid: 491 }
+33 CampelCard { hand: "4A628", value: 0x6A08C6, bid: 563 }
+34 CampelCard { hand: "526T4", value: 0x69C84A, bid: 416 }
+35 CampelCard { hand: "54QT2", value: 0x69A24C, bid: 665 }
+36 CampelCard { hand: "564Q3", value: 0x698A2B, bid: 477 }
+37 CampelCard { hand: "584Q2", value: 0x696A2C, bid: 575 }
+38 CampelCard { hand: "586A7", value: 0x696807, bid: 603 }
+39 CampelCard { hand: "58AK3", value: 0x69601B, bid: 427 }
+40 CampelCard { hand: "59347", value: 0x695BA7, bid: 595 }
+41 CampelCard { hand: "59TQ2", value: 0x69542C, bid: 313 }
+42 CampelCard { hand: "5T9QJ", value: 0x694523, bid: 955 }
+43 CampelCard { hand: "5J476", value: 0x693A78, bid: 252 }
+44 CampelCard { hand: "5J7A4", value: 0x69370A, bid: 164 }
+45 CampelCard { hand: "5Q34T", value: 0x692BA4, bid: 970 }
+46 CampelCard { hand: "5Q7KT", value: 0x692714, bid: 126 }
+47 CampelCard { hand: "5QT67", value: 0x692487, bid: 762 }
+48 CampelCard { hand: "5QA68", value: 0x692086, bid: 111 }
+49 CampelCard { hand: "5K426", value: 0x691AC8, bid: 426 }
+50 CampelCard { hand: "5KAJ2", value: 0x69103C, bid: 464 }
+51 CampelCard { hand: "627J8", value: 0x68C736, bid: 259 }
+52 CampelCard { hand: "63789", value: 0x68B765, bid: 59 }
+53 CampelCard { hand: "639Q2", value: 0x68B52C, bid: 787 }
+54 CampelCard { hand: "64K28", value: 0x68A1C6, bid: 435 }
+55 CampelCard { hand: "65Q82", value: 0x68926C, bid: 306 }
+56 CampelCard { hand: "67J58", value: 0x687396, bid: 589 }
+57 CampelCard { hand: "68J42", value: 0x6863AC, bid: 478 }
+58 CampelCard { hand: "6T543", value: 0x6849AB, bid: 260 }
+59 CampelCard { hand: "6JK43", value: 0x6831AB, bid: 292 }
+60 CampelCard { hand: "6QJT4", value: 0x68234A, bid: 343 }
+61 CampelCard { hand: "6QK74", value: 0x68217A, bid: 920 }
+62 CampelCard { hand: "6K7T3", value: 0x68174B, bid: 895 }
+63 CampelCard { hand: "6K924", value: 0x6815CA, bid: 534 }
+64 CampelCard { hand: "6KJ48", value: 0x6813A6, bid: 356 }
+65 CampelCard { hand: "6A2J4", value: 0x680C3A, bid: 546 }
+66 CampelCard { hand: "6A5K4", value: 0x68091A, bid: 687 }
+67 CampelCard { hand: "6AJT9", value: 0x680345, bid: 733 }
+68 CampelCard { hand: "72T56", value: 0x67C498, bid: 378 }
+69 CampelCard { hand: "72KT4", value: 0x67C14A, bid: 728 }
+70 CampelCard { hand: "74296", value: 0x67AC58, bid: 940 }
+71 CampelCard { hand: "749A6", value: 0x67A508, bid: 765 }
+72 CampelCard { hand: "74Q52", value: 0x67A29C, bid: 20 }
+73 CampelCard { hand: "75T63", value: 0x67948B, bid: 721 }
+74 CampelCard { hand: "75J8T", value: 0x679364, bid: 437 }
+75 CampelCard { hand: "7638A", value: 0x678B60, bid: 774 }
+76 CampelCard { hand: "76Q53", value: 0x67829B, bid: 434 }
+77 CampelCard { hand: "7T29A", value: 0x674C50, bid: 795 }
+78 CampelCard { hand: "7T3KJ", value: 0x674B13, bid: 145 }
+79 CampelCard { hand: "7T845", value: 0x6746A9, bid: 755 }
+80 CampelCard { hand: "7J238", value: 0x673CB6, bid: 953 }
+81 CampelCard { hand: "7J369", value: 0x673B85, bid: 853 }
+82 CampelCard { hand: "7J3K6", value: 0x673B18, bid: 745 }
+83 CampelCard { hand: "7J5KA", value: 0x673910, bid: 95 }
+84 CampelCard { hand: "7Q58K", value: 0x672961, bid: 183 }
+85 CampelCard { hand: "7A239", value: 0x670CB5, bid: 307 }
+86 CampelCard { hand: "7A839", value: 0x6706B5, bid: 42 }
+87 CampelCard { hand: "7A8T2", value: 0x67064C, bid: 708 }
+88 CampelCard { hand: "7A8JT", value: 0x670634, bid: 398 }
+89 CampelCard { hand: "8369Q", value: 0x66B852, bid: 854 }
+90 CampelCard { hand: "85J63", value: 0x66938B, bid: 363 }
+91 CampelCard { hand: "86342", value: 0x668BAC, bid: 825 }
+92 CampelCard { hand: "867A2", value: 0x66870C, bid: 149 }
+93 CampelCard { hand: "86K27", value: 0x6681C7, bid: 404 }
+94 CampelCard { hand: "895Q7", value: 0x665927, bid: 221 }
+95 CampelCard { hand: "8TK3A", value: 0x6641B0, bid: 388 }
+96 CampelCard { hand: "8J2KA", value: 0x663C10, bid: 200 }
+97 CampelCard { hand: "8QK2T", value: 0x6621C4, bid: 540 }
+98 CampelCard { hand: "8QAK5", value: 0x662019, bid: 352 }
+99 CampelCard { hand: "8K234", value: 0x661CBA, bid: 959 }
+100 CampelCard { hand: "8K9JT", value: 0x661534, bid: 131 }
+101 CampelCard { hand: "8A395", value: 0x660B59, bid: 390 }
+102 CampelCard { hand: "927T8", value: 0x65C746, bid: 189 }
+103 CampelCard { hand: "92T56", value: 0x65C498, bid: 808 }
+104 CampelCard { hand: "92J37", value: 0x65C3B7, bid: 690 }
+105 CampelCard { hand: "935J7", value: 0x65B937, bid: 648 }
+106 CampelCard { hand: "93658", value: 0x65B896, bid: 304 }
+107 CampelCard { hand: "93QK6", value: 0x65B218, bid: 882 }
+108 CampelCard { hand: "945QT", value: 0x65A924, bid: 244 }
+109 CampelCard { hand: "94683", value: 0x65A86B, bid: 838 }
+110 CampelCard { hand: "958J3", value: 0x65963B, bid: 847 }
+111 CampelCard { hand: "95TJ2", value: 0x65943C, bid: 396 }
+112 CampelCard { hand: "95K3T", value: 0x6591B4, bid: 633 }
+113 CampelCard { hand: "95K43", value: 0x6591AB, bid: 848 }
+114 CampelCard { hand: "964KT", value: 0x658A14, bid: 630 }
+115 CampelCard { hand: "975T6", value: 0x657948, bid: 815 }
+116 CampelCard { hand: "9765A", value: 0x657890, bid: 195 }
+117 CampelCard { hand: "97QJ4", value: 0x65723A, bid: 888 }
+118 CampelCard { hand: "9J6T7", value: 0x653847, bid: 192 }
+119 CampelCard { hand: "9K7A5", value: 0x651709, bid: 445 }
+120 CampelCard { hand: "9A3Q7", value: 0x650B27, bid: 753 }
+121 CampelCard { hand: "T2K37", value: 0x64C1B7, bid: 54 }
+122 CampelCard { hand: "T4Q3K", value: 0x64A2B1, bid: 6 }
+123 CampelCard { hand: "T5786", value: 0x649768, bid: 754 }
+124 CampelCard { hand: "T59KJ", value: 0x649513, bid: 520 }
+125 CampelCard { hand: "T78KA", value: 0x647610, bid: 161 }
+126 CampelCard { hand: "T79AK", value: 0x647501, bid: 980 }
+127 CampelCard { hand: "T863A", value: 0x6468B0, bid: 372 }
+128 CampelCard { hand: "T8QA4", value: 0x64620A, bid: 876 }
+129 CampelCard { hand: "T9836", value: 0x6456B8, bid: 323 }
+130 CampelCard { hand: "T9J47", value: 0x6453A7, bid: 203 }
+131 CampelCard { hand: "T9Q4J", value: 0x6452A3, bid: 604 }
+132 CampelCard { hand: "T9A47", value: 0x6450A7, bid: 692 }
+133 CampelCard { hand: "TQ297", value: 0x642C57, bid: 554 }
+134 CampelCard { hand: "TQ935", value: 0x6425B9, bid: 526 }
+135 CampelCard { hand: "TA62Q", value: 0x6408C2, bid: 933 }
+136 CampelCard { hand: "TAQ76", value: 0x640278, bid: 766 }
+137 CampelCard { hand: "J2AQK", value: 0x63C021, bid: 729 }
+138 CampelCard { hand: "J43K2", value: 0x63AB1C, bid: 946 }
+139 CampelCard { hand: "J4Q65", value: 0x63A289, bid: 322 }
+140 CampelCard { hand: "J52QA", value: 0x639C20, bid: 551 }
+141 CampelCard { hand: "J6ATQ", value: 0x638042, bid: 173 }
+142 CampelCard { hand: "J8T7K", value: 0x636471, bid: 943 }
+143 CampelCard { hand: "J93AK", value: 0x635B01, bid: 867 }
+144 CampelCard { hand: "J978A", value: 0x635760, bid: 405 }
+145 CampelCard { hand: "J97A4", value: 0x63570A, bid: 737 }
+146 CampelCard { hand: "JT2KQ", value: 0x634C12, bid: 889 }
+147 CampelCard { hand: "JK852", value: 0x63169C, bid: 371 }
+148 CampelCard { hand: "JAQ34", value: 0x6302BA, bid: 418 }
+149 CampelCard { hand: "Q2A79", value: 0x62C075, bid: 43 }
+150 CampelCard { hand: "Q35T6", value: 0x62B948, bid: 78 }
+151 CampelCard { hand: "Q58TK", value: 0x629641, bid: 122 }
+152 CampelCard { hand: "Q5A89", value: 0x629065, bid: 147 }
+153 CampelCard { hand: "Q6T93", value: 0x62845B, bid: 141 }
+154 CampelCard { hand: "Q7632", value: 0x6278BC, bid: 930 }
+155 CampelCard { hand: "Q7A5T", value: 0x627094, bid: 947 }
+156 CampelCard { hand: "Q85J6", value: 0x626938, bid: 480 }
+157 CampelCard { hand: "Q8742", value: 0x6267AC, bid: 302 }
+158 CampelCard { hand: "Q87JA", value: 0x626730, bid: 485 }
+159 CampelCard { hand: "Q93J7", value: 0x625B37, bid: 453 }
+160 CampelCard { hand: "Q953J", value: 0x6259B3, bid: 532 }
+161 CampelCard { hand: "Q95KT", value: 0x625914, bid: 794 }
+162 CampelCard { hand: "QTA64", value: 0x62408A, bid: 547 }
+163 CampelCard { hand: "QJ432", value: 0x623ABC, bid: 671 }
+164 CampelCard { hand: "QA697", value: 0x620857, bid: 818 }
+165 CampelCard { hand: "K4928", value: 0x61A5C6, bid: 237 }
+166 CampelCard { hand: "K4Q98", value: 0x61A256, bid: 978 }
+167 CampelCard { hand: "K596A", value: 0x619580, bid: 629 }
+168 CampelCard { hand: "K5A43", value: 0x6190AB, bid: 651 }
+169 CampelCard { hand: "K5A62", value: 0x61908C, bid: 65 }
+170 CampelCard { hand: "K623T", value: 0x618CB4, bid: 904 }
+171 CampelCard { hand: "K628Q", value: 0x618C62, bid: 928 }
+172 CampelCard { hand: "K6293", value: 0x618C5B, bid: 981 }
+173 CampelCard { hand: "K6A29", value: 0x6180C5, bid: 963 }
+174 CampelCard { hand: "K783T", value: 0x6176B4, bid: 713 }
+175 CampelCard { hand: "K79T4", value: 0x61754A, bid: 925 }
+176 CampelCard { hand: "K96J2", value: 0x61583C, bid: 391 }
+177 CampelCard { hand: "K97Q5", value: 0x615729, bid: 217 }
+178 CampelCard { hand: "KT573", value: 0x61497B, bid: 881 }
+179 CampelCard { hand: "KT948", value: 0x6145A6, bid: 655 }
+180 CampelCard { hand: "KTA4Q", value: 0x6140A2, bid: 821 }
+181 CampelCard { hand: "KQA69", value: 0x612085, bid: 833 }
+182 CampelCard { hand: "A245K", value: 0x60CA91, bid: 331 }
+183 CampelCard { hand: "A2J69", value: 0x60C385, bid: 191 }
+184 CampelCard { hand: "A3478", value: 0x60BA76, bid: 329 }
+185 CampelCard { hand: "A4857", value: 0x60A697, bid: 374 }
+186 CampelCard { hand: "A5423", value: 0x609ACB, bid: 77 }
+187 CampelCard { hand: "A589K", value: 0x609651, bid: 841 }
+188 CampelCard { hand: "A76J5", value: 0x607839, bid: 70 }
+189 CampelCard { hand: "A9572", value: 0x60597C, bid: 38 }
+190 CampelCard { hand: "AT47Q", value: 0x604A72, bid: 269 }
+191 CampelCard { hand: "AT576", value: 0x604978, bid: 601 }
+192 CampelCard { hand: "AT9K5", value: 0x604519, bid: 941 }
+193 CampelCard { hand: "AJ5K8", value: 0x603916, bid: 360 }
+194 CampelCard { hand: "AJ986", value: 0x603568, bid: 283 }
+195 CampelCard { hand: "AJTQK", value: 0x603421, bid: 500 }
+196 CampelCard { hand: "AQ458", value: 0x602A96, bid: 726 }
+197 CampelCard { hand: "AQ472", value: 0x602A7C, bid: 608 }
+198 CampelCard { hand: "AQ572", value: 0x60297C, bid: 667 }
+199 CampelCard { hand: "AQJ49", value: 0x6023A5, bid: 995 }
+200 CampelCard { hand: "AK6T8", value: 0x601846, bid: 55 }
+201 CampelCard { hand: "22643", value: 0x5CC8AB, bid: 482 }
+202 CampelCard { hand: "22K86", value: 0x5CC168, bid: 873 }
+203 CampelCard { hand: "24558", value: 0x5CA996, bid: 124 }
+204 CampelCard { hand: "24AJ4", value: 0x5CA03A, bid: 740 }
+205 CampelCard { hand: "24AA3", value: 0x5CA00B, bid: 666 }
+206 CampelCard { hand: "2595Q", value: 0x5C9592, bid: 894 }
+207 CampelCard { hand: "26546", value: 0x5C89A8, bid: 301 }
+208 CampelCard { hand: "26768", value: 0x5C8786, bid: 291 }
+209 CampelCard { hand: "267T2", value: 0x5C874C, bid: 34 }
+210 CampelCard { hand: "26942", value: 0x5C85AC, bid: 35 }
+211 CampelCard { hand: "273K3", value: 0x5C7B1B, bid: 86 }
+212 CampelCard { hand: "288Q3", value: 0x5C662B, bid: 439 }
+213 CampelCard { hand: "29T42", value: 0x5C54AC, bid: 9 }
+214 CampelCard { hand: "2T9JT", value: 0x5C4534, bid: 809 }
+215 CampelCard { hand: "2TJ28", value: 0x5C43C6, bid: 441 }
+216 CampelCard { hand: "2J275", value: 0x5C3C79, bid: 922 }
+217 CampelCard { hand: "2J8A2", value: 0x5C360C, bid: 997 }
+218 CampelCard { hand: "2Q33K", value: 0x5C2BB1, bid: 640 }
+219 CampelCard { hand: "2Q624", value: 0x5C28CA, bid: 409 }
+220 CampelCard { hand: "2Q7QK", value: 0x5C2721, bid: 256 }
+221 CampelCard { hand: "2QT52", value: 0x5C249C, bid: 701 }
+222 CampelCard { hand: "2QJ32", value: 0x5C23BC, bid: 714 }
+223 CampelCard { hand: "2K7J7", value: 0x5C1737, bid: 205 }
+224 CampelCard { hand: "32743", value: 0x5BC7AB, bid: 719 }
+225 CampelCard { hand: "335KQ", value: 0x5BB912, bid: 108 }
+226 CampelCard { hand: "34Q4K", value: 0x5BA2A1, bid: 598 }
+227 CampelCard { hand: "383J2", value: 0x5B6B3C, bid: 125 }
+228 CampelCard { hand: "38892", value: 0x5B665C, bid: 465 }
+229 CampelCard { hand: "38Q98", value: 0x5B6256, bid: 521 }
+230 CampelCard { hand: "39J73", value: 0x5B537B, bid: 295 }
+231 CampelCard { hand: "39Q95", value: 0x5B5259, bid: 238 }
+232 CampelCard { hand: "3T8J3", value: 0x5B463B, bid: 178 }
+233 CampelCard { hand: "3JT73", value: 0x5B347B, bid: 742 }
+234 CampelCard { hand: "3QJAA", value: 0x5B2300, bid: 286 }
+235 CampelCard { hand: "3QAQ4", value: 0x5B202A, bid: 697 }
+236 CampelCard { hand: "3A44K", value: 0x5B0AA1, bid: 258 }
+237 CampelCard { hand: "3A99Q", value: 0x5B0552, bid: 83 }
+238 CampelCard { hand: "4292J", value: 0x5AC5C3, bid: 186 }
+239 CampelCard { hand: "4366A", value: 0x5AB880, bid: 919 }
+240 CampelCard { hand: "43J4Q", value: 0x5AB3A2, bid: 649 }
+241 CampelCard { hand: "43AQ3", value: 0x5AB02B, bid: 574 }
+242 CampelCard { hand: "44853", value: 0x5AA69B, bid: 780 }
+243 CampelCard { hand: "44A23", value: 0x5AA0CB, bid: 751 }
+244 CampelCard { hand: "44AQ8", value: 0x5AA026, bid: 368 }
+245 CampelCard { hand: "45734", value: 0x5A97BA, bid: 781 }
+246 CampelCard { hand: "45JT5", value: 0x5A9349, bid: 495 }
+247 CampelCard { hand: "462A6", value: 0x5A8C08, bid: 266 }
+248 CampelCard { hand: "466JK", value: 0x5A8831, bid: 813 }
+249 CampelCard { hand: "46T4K", value: 0x5A84A1, bid: 250 }
+250 CampelCard { hand: "46J67", value: 0x5A8387, bid: 47 }
+251 CampelCard { hand: "46JA6", value: 0x5A8308, bid: 110 }
+252 CampelCard { hand: "473K4", value: 0x5A7B1A, bid: 79 }
+253 CampelCard { hand: "47QJ4", value: 0x5A723A, bid: 917 }
+254 CampelCard { hand: "4849Q", value: 0x5A6A52, bid: 804 }
+255 CampelCard { hand: "49T9J", value: 0x5A5453, bid: 934 }
+256 CampelCard { hand: "4TTKA", value: 0x5A4410, bid: 436 }
+257 CampelCard { hand: "4TQ74", value: 0x5A427A, bid: 137 }
+258 CampelCard { hand: "4TQQ5", value: 0x5A4229, bid: 659 }
+259 CampelCard { hand: "4J665", value: 0x5A3889, bid: 382 }
+260 CampelCard { hand: "4JTT8", value: 0x5A3446, bid: 537 }
+261 CampelCard { hand: "4Q228", value: 0x5A2CC6, bid: 707 }
+262 CampelCard { hand: "4Q34A", value: 0x5A2BA0, bid: 556 }
+263 CampelCard { hand: "4K737", value: 0x5A17B7, bid: 502 }
+264 CampelCard { hand: "4K8AK", value: 0x5A1601, bid: 367 }
+265 CampelCard { hand: "4KK7J", value: 0x5A1173, bid: 175 }
+266 CampelCard { hand: "525T7", value: 0x59C947, bid: 160 }
+267 CampelCard { hand: "52A2J", value: 0x59C0C3, bid: 452 }
+268 CampelCard { hand: "539T3", value: 0x59B54B, bid: 179 }
+269 CampelCard { hand: "545KQ", value: 0x59A912, bid: 614 }
+270 CampelCard { hand: "54J52", value: 0x59A39C, bid: 234 }
+271 CampelCard { hand: "55234", value: 0x599CBA, bid: 457 }
+272 CampelCard { hand: "55JK8", value: 0x599316, bid: 968 }
+273 CampelCard { hand: "565AK", value: 0x598901, bid: 407 }
+274 CampelCard { hand: "5T447", value: 0x594AA7, bid: 862 }
+275 CampelCard { hand: "5TT92", value: 0x59445C, bid: 639 }
+276 CampelCard { hand: "5J7Q7", value: 0x593727, bid: 228 }
+277 CampelCard { hand: "5JQ59", value: 0x593295, bid: 586 }
+278 CampelCard { hand: "5Q5J8", value: 0x592936, bid: 760 }
+279 CampelCard { hand: "5QA52", value: 0x59209C, bid: 29 }
+280 CampelCard { hand: "5QA56", value: 0x592098, bid: 562 }
+281 CampelCard { hand: "5K5Q6", value: 0x591928, bid: 618 }
+282 CampelCard { hand: "5A59T", value: 0x590954, bid: 101 }
+283 CampelCard { hand: "5A8K8", value: 0x590616, bid: 27 }
+284 CampelCard { hand: "6272K", value: 0x58C7C1, bid: 727 }
+285 CampelCard { hand: "62832", value: 0x58C6BC, bid: 213 }
+286 CampelCard { hand: "63T65", value: 0x58B489, bid: 982 }
+287 CampelCard { hand: "63QQ7", value: 0x58B227, bid: 594 }
+288 CampelCard { hand: "655T2", value: 0x58994C, bid: 685 }
+289 CampelCard { hand: "656T4", value: 0x58984A, bid: 63 }
+290 CampelCard { hand: "657KK", value: 0x589711, bid: 905 }
+291 CampelCard { hand: "65JTT", value: 0x589344, bid: 278 }
+292 CampelCard { hand: "65KK3", value: 0x58911B, bid: 312 }
+293 CampelCard { hand: "66KA9", value: 0x588105, bid: 663 }
+294 CampelCard { hand: "67J5J", value: 0x587393, bid: 812 }
+295 CampelCard { hand: "67K7J", value: 0x587173, bid: 449 }
+296 CampelCard { hand: "67AAT", value: 0x587004, bid: 243 }
+297 CampelCard { hand: "68J22", value: 0x5863CC, bid: 479 }
+298 CampelCard { hand: "6J454", value: 0x583A9A, bid: 377 }
+299 CampelCard { hand: "6J99A", value: 0x583550, bid: 61 }
+300 CampelCard { hand: "6JA65", value: 0x583089, bid: 2 }
+301 CampelCard { hand: "6QJAQ", value: 0x582302, bid: 706 }
+302 CampelCard { hand: "6QQ4J", value: 0x5822A3, bid: 827 }
+303 CampelCard { hand: "6A882", value: 0x58066C, bid: 632 }
+304 CampelCard { hand: "73653", value: 0x57B89B, bid: 985 }
+305 CampelCard { hand: "73664", value: 0x57B88A, bid: 138 }
+306 CampelCard { hand: "74J7T", value: 0x57A374, bid: 74 }
+307 CampelCard { hand: "75528", value: 0x5799C6, bid: 414 }
+308 CampelCard { hand: "75827", value: 0x5796C7, bid: 907 }
+309 CampelCard { hand: "7657J", value: 0x578973, bid: 872 }
+310 CampelCard { hand: "767TQ", value: 0x578742, bid: 945 }
+311 CampelCard { hand: "773Q4", value: 0x577B2A, bid: 475 }
+312 CampelCard { hand: "787TQ", value: 0x576742, bid: 66 }
+313 CampelCard { hand: "794J4", value: 0x575A3A, bid: 121 }
+314 CampelCard { hand: "7992K", value: 0x5755C1, bid: 134 }
+315 CampelCard { hand: "7993A", value: 0x5755B0, bid: 676 }
+316 CampelCard { hand: "7TJ72", value: 0x57437C, bid: 558 }
+317 CampelCard { hand: "7J6TJ", value: 0x573843, bid: 338 }
+318 CampelCard { hand: "7J796", value: 0x573758, bid: 776 }
+319 CampelCard { hand: "7JJ93", value: 0x57335B, bid: 16 }
+320 CampelCard { hand: "7Q287", value: 0x572C67, bid: 899 }
+321 CampelCard { hand: "7QJAJ", value: 0x572303, bid: 731 }
+322 CampelCard { hand: "7KT88", value: 0x571466, bid: 400 }
+323 CampelCard { hand: "7KJ73", value: 0x57137B, bid: 156 }
+324 CampelCard { hand: "7KAK4", value: 0x57101A, bid: 272 }
+325 CampelCard { hand: "82798", value: 0x56C756, bid: 490 }
+326 CampelCard { hand: "8292Q", value: 0x56C5C2, bid: 171 }
+327 CampelCard { hand: "82Q6Q", value: 0x56C282, bid: 770 }
+328 CampelCard { hand: "8442A", value: 0x56AAC0, bid: 989 }
+329 CampelCard { hand: "8499K", value: 0x56A551, bid: 224 }
+330 CampelCard { hand: "854Q5", value: 0x569A29, bid: 163 }
+331 CampelCard { hand: "85A59", value: 0x569095, bid: 711 }
+332 CampelCard { hand: "86J85", value: 0x568369, bid: 696 }
+333 CampelCard { hand: "86K6J", value: 0x568183, bid: 720 }
+334 CampelCard { hand: "87759", value: 0x567795, bid: 486 }
+335 CampelCard { hand: "87J79", value: 0x567375, bid: 974 }
+336 CampelCard { hand: "8876K", value: 0x566781, bid: 874 }
+337 CampelCard { hand: "88QJ6", value: 0x566238, bid: 657 }
+338 CampelCard { hand: "8977A", value: 0x565770, bid: 89 }
+339 CampelCard { hand: "8T4TA", value: 0x564A40, bid: 406 }
+340 CampelCard { hand: "8J6KK", value: 0x563811, bid: 387 }
+341 CampelCard { hand: "8J982", value: 0x56356C, bid: 315 }
+342 CampelCard { hand: "8JK83", value: 0x56316B, bid: 580 }
+343 CampelCard { hand: "8Q8JK", value: 0x562631, bid: 646 }
+344 CampelCard { hand: "8QK83", value: 0x56216B, bid: 624 }
+345 CampelCard { hand: "8K483", value: 0x561A6B, bid: 361 }
+346 CampelCard { hand: "8A3KA", value: 0x560B10, bid: 483 }
+347 CampelCard { hand: "8A545", value: 0x5609A9, bid: 17 }
+348 CampelCard { hand: "92566", value: 0x55C988, bid: 194 }
+349 CampelCard { hand: "92Q9A", value: 0x55C250, bid: 309 }
+350 CampelCard { hand: "94J64", value: 0x55A38A, bid: 415 }
+351 CampelCard { hand: "955J4", value: 0x55993A, bid: 634 }
+352 CampelCard { hand: "9592T", value: 0x5595C4, bid: 268 }
+353 CampelCard { hand: "97687", value: 0x557867, bid: 319 }
+354 CampelCard { hand: "97869", value: 0x557685, bid: 788 }
+355 CampelCard { hand: "978A8", value: 0x557606, bid: 48 }
+356 CampelCard { hand: "9792Q", value: 0x5575C2, bid: 246 }
+357 CampelCard { hand: "97JJA", value: 0x557330, bid: 223 }
+358 CampelCard { hand: "9962J", value: 0x5558C3, bid: 150 }
+359 CampelCard { hand: "99JT3", value: 0x55534B, bid: 397 }
+360 CampelCard { hand: "99KA4", value: 0x55510A, bid: 384 }
+361 CampelCard { hand: "9T7TJ", value: 0x554743, bid: 273 }
+362 CampelCard { hand: "9TQ44", value: 0x5542AA, bid: 26 }
+363 CampelCard { hand: "9J293", value: 0x553C5B, bid: 187 }
+364 CampelCard { hand: "9J4KK", value: 0x553A11, bid: 151 }
+365 CampelCard { hand: "9JQ9A", value: 0x553250, bid: 348 }
+366 CampelCard { hand: "9JK66", value: 0x553188, bid: 154 }
+367 CampelCard { hand: "9K885", value: 0x551669, bid: 730 }
+368 CampelCard { hand: "9A88J", value: 0x550663, bid: 566 }
+369 CampelCard { hand: "9AJ9K", value: 0x550351, bid: 950 }
+370 CampelCard { hand: "T2TJ7", value: 0x54C437, bid: 523 }
+371 CampelCard { hand: "T3J66", value: 0x54B388, bid: 174 }
+372 CampelCard { hand: "T443K", value: 0x54AAB1, bid: 644 }
+373 CampelCard { hand: "T56A6", value: 0x549808, bid: 67 }
+374 CampelCard { hand: "T5T6K", value: 0x549481, bid: 535 }
+375 CampelCard { hand: "T5K99", value: 0x549155, bid: 743 }
+376 CampelCard { hand: "T5KQT", value: 0x549124, bid: 385 }
+377 CampelCard { hand: "T83K3", value: 0x546B1B, bid: 249 }
+378 CampelCard { hand: "T8583", value: 0x54696B, bid: 969 }
+379 CampelCard { hand: "T8782", value: 0x54676C, bid: 777 }
+380 CampelCard { hand: "TJJ2K", value: 0x5433C1, bid: 805 }
+381 CampelCard { hand: "TJJ78", value: 0x543376, bid: 395 }
+382 CampelCard { hand: "TKQJJ", value: 0x541233, bid: 542 }
+383 CampelCard { hand: "TAA64", value: 0x54008A, bid: 510 }
+384 CampelCard { hand: "J2QQK", value: 0x53C221, bid: 552 }
+385 CampelCard { hand: "J425J", value: 0x53AC93, bid: 511 }
+386 CampelCard { hand: "J46J7", value: 0x53A837, bid: 339 }
+387 CampelCard { hand: "J5352", value: 0x539B9C, bid: 916 }
+388 CampelCard { hand: "J5546", value: 0x5399A8, bid: 282 }
+389 CampelCard { hand: "J5K33", value: 0x5391BB, bid: 569 }
+390 CampelCard { hand: "J5A7J", value: 0x539073, bid: 392 }
+391 CampelCard { hand: "J62J8", value: 0x538C36, bid: 739 }
+392 CampelCard { hand: "J65JT", value: 0x538934, bid: 423 }
+393 CampelCard { hand: "J6898", value: 0x538656, bid: 90 }
+394 CampelCard { hand: "J68T8", value: 0x538646, bid: 334 }
+395 CampelCard { hand: "J75T7", value: 0x537947, bid: 255 }
+396 CampelCard { hand: "J7762", value: 0x53778C, bid: 52 }
+397 CampelCard { hand: "J7A33", value: 0x5370BB, bid: 763 }
+398 CampelCard { hand: "J8J3Q", value: 0x5363B2, bid: 909 }
+399 CampelCard { hand: "J8JQ4", value: 0x53632A, bid: 155 }
+400 CampelCard { hand: "J9396", value: 0x535B58, bid: 129 }
+401 CampelCard { hand: "J995K", value: 0x535591, bid: 830 }
+402 CampelCard { hand: "J99K8", value: 0x535516, bid: 529 }
+403 CampelCard { hand: "JT6TA", value: 0x534840, bid: 823 }
+404 CampelCard { hand: "JQ949", value: 0x5325A5, bid: 783 }
+405 CampelCard { hand: "JQ9J6", value: 0x532538, bid: 386 }
+406 CampelCard { hand: "JQ9QK", value: 0x532521, bid: 610 }
+407 CampelCard { hand: "JQQ52", value: 0x53229C, bid: 912 }
+408 CampelCard { hand: "JK797", value: 0x531757, bid: 732 }
+409 CampelCard { hand: "Q2868", value: 0x52C686, bid: 114 }
+410 CampelCard { hand: "Q2QA7", value: 0x52C207, bid: 561 }
+411 CampelCard { hand: "Q3277", value: 0x52BC77, bid: 593 }
+412 CampelCard { hand: "Q3JAJ", value: 0x52B303, bid: 842 }
+413 CampelCard { hand: "Q3QJ7", value: 0x52B237, bid: 879 }
+414 CampelCard { hand: "Q4557", value: 0x52A997, bid: 709 }
+415 CampelCard { hand: "Q4QK3", value: 0x52A21B, bid: 123 }
+416 CampelCard { hand: "Q4A55", value: 0x52A099, bid: 702 }
+417 CampelCard { hand: "Q56Q2", value: 0x52982C, bid: 271 }
+418 CampelCard { hand: "Q6343", value: 0x528BAB, bid: 14 }
+419 CampelCard { hand: "Q6A36", value: 0x5280B8, bid: 599 }
+420 CampelCard { hand: "Q77AJ", value: 0x527703, bid: 929 }
+421 CampelCard { hand: "Q8232", value: 0x526CBC, bid: 316 }
+422 CampelCard { hand: "Q852Q", value: 0x5269C2, bid: 530 }
+423 CampelCard { hand: "Q9796", value: 0x525758, bid: 233 }
+424 CampelCard { hand: "Q9Q4J", value: 0x5252A3, bid: 851 }
+425 CampelCard { hand: "QTAT2", value: 0x52404C, bid: 893 }
+426 CampelCard { hand: "QJ9K9", value: 0x523515, bid: 181 }
+427 CampelCard { hand: "QJT55", value: 0x523499, bid: 152 }
+428 CampelCard { hand: "QQ5T8", value: 0x522946, bid: 849 }
+429 CampelCard { hand: "QQAJK", value: 0x522031, bid: 130 }
+430 CampelCard { hand: "QKJ6K", value: 0x521381, bid: 408 }
+431 CampelCard { hand: "QA7QT", value: 0x520724, bid: 21 }
+432 CampelCard { hand: "K286K", value: 0x51C681, bid: 466 }
+433 CampelCard { hand: "K2JK6", value: 0x51C318, bid: 162 }
+434 CampelCard { hand: "K56T5", value: 0x519849, bid: 308 }
+435 CampelCard { hand: "K6JTT", value: 0x518344, bid: 892 }
+436 CampelCard { hand: "K78AK", value: 0x517601, bid: 190 }
+437 CampelCard { hand: "K84JK", value: 0x516A31, bid: 722 }
+438 CampelCard { hand: "K8T8J", value: 0x516463, bid: 276 }
+439 CampelCard { hand: "KT7T3", value: 0x51474B, bid: 652 }
+440 CampelCard { hand: "KT94K", value: 0x5145A1, bid: 247 }
+441 CampelCard { hand: "KJ23J", value: 0x513CB3, bid: 422 }
+442 CampelCard { hand: "KJQAA", value: 0x513200, bid: 40 }
+443 CampelCard { hand: "KQ46K", value: 0x512A81, bid: 300 }
+444 CampelCard { hand: "KK84T", value: 0x5116A4, bid: 218 }
+445 CampelCard { hand: "KKQ3T", value: 0x5112B4, bid: 380 }
+446 CampelCard { hand: "KKQ8A", value: 0x511260, bid: 865 }
+447 CampelCard { hand: "KAJQK", value: 0x510321, bid: 698 }
+448 CampelCard { hand: "KAA9Q", value: 0x510052, bid: 227 }
+449 CampelCard { hand: "A45J4", value: 0x50A93A, bid: 1 }
+450 CampelCard { hand: "A5KJA", value: 0x509130, bid: 512 }
+451 CampelCard { hand: "A66JQ", value: 0x508832, bid: 564 }
+452 CampelCard { hand: "A74Q4", value: 0x507A2A, bid: 725 }
+453 CampelCard { hand: "A848J", value: 0x506A63, bid: 94 }
+454 CampelCard { hand: "A933J", value: 0x505BB3, bid: 621 }
+455 CampelCard { hand: "AQ229", value: 0x502CC5, bid: 806 }
+456 CampelCard { hand: "AKK4T", value: 0x5011A4, bid: 429 }
+457 CampelCard { hand: "AKA79", value: 0x501075, bid: 365 }
+458 CampelCard { hand: "AA82J", value: 0x5006C3, bid: 18 }
+459 CampelCard { hand: "225J5", value: 0x4CC939, bid: 68 }
+460 CampelCard { hand: "22TJT", value: 0x4CC434, bid: 242 }
+461 CampelCard { hand: "24992", value: 0x4CA55C, bid: 84 }
+462 CampelCard { hand: "26TT2", value: 0x4C844C, bid: 684 }
+463 CampelCard { hand: "26A2A", value: 0x4C80C0, bid: 82 }
+464 CampelCard { hand: "27J72", value: 0x4C737C, bid: 373 }
+465 CampelCard { hand: "28892", value: 0x4C665C, bid: 683 }
+466 CampelCard { hand: "29J9J", value: 0x4C5353, bid: 107 }
+467 CampelCard { hand: "2J662", value: 0x4C388C, bid: 820 }
+468 CampelCard { hand: "2Q2Q8", value: 0x4C2C26, bid: 910 }
+469 CampelCard { hand: "2K44K", value: 0x4C1AA1, bid: 450 }
+470 CampelCard { hand: "2KQ2K", value: 0x4C12C1, bid: 503 }
+471 CampelCard { hand: "322KK", value: 0x4BCC11, bid: 898 }
+472 CampelCard { hand: "32T23", value: 0x4BC4CB, bid: 773 }
+473 CampelCard { hand: "33767", value: 0x4BB787, bid: 689 }
+474 CampelCard { hand: "33855", value: 0x4BB699, bid: 990 }
+475 CampelCard { hand: "3399Q", value: 0x4BB552, bid: 11 }
+476 CampelCard { hand: "33TAT", value: 0x4BB404, bid: 878 }
+477 CampelCard { hand: "33Q4Q", value: 0x4BB2A2, bid: 960 }
+478 CampelCard { hand: "34939", value: 0x4BA5B5, bid: 939 }
+479 CampelCard { hand: "355J3", value: 0x4B993B, bid: 519 }
+480 CampelCard { hand: "36536", value: 0x4B89B8, bid: 584 }
+481 CampelCard { hand: "38K8K", value: 0x4B6161, bid: 158 }
+482 CampelCard { hand: "39369", value: 0x4B5B85, bid: 120 }
+483 CampelCard { hand: "393JJ", value: 0x4B5B33, bid: 413 }
+484 CampelCard { hand: "393KK", value: 0x4B5B11, bid: 524 }
+485 CampelCard { hand: "3J232", value: 0x4B3CBC, bid: 196 }
+486 CampelCard { hand: "3JJT3", value: 0x4B334B, bid: 232 }
+487 CampelCard { hand: "3Q2Q2", value: 0x4B2C2C, bid: 509 }
+488 CampelCard { hand: "3K3KA", value: 0x4B1B10, bid: 446 }
+489 CampelCard { hand: "3K434", value: 0x4B1ABA, bid: 105 }
+490 CampelCard { hand: "3KK32", value: 0x4B11BC, bid: 613 }
+491 CampelCard { hand: "4242J", value: 0x4ACAC3, bid: 318 }
+492 CampelCard { hand: "446KK", value: 0x4AA811, bid: 791 }
+493 CampelCard { hand: "4499Q", value: 0x4AA552, bid: 91 }
+494 CampelCard { hand: "45599", value: 0x4A9955, bid: 626 }
+495 CampelCard { hand: "45T54", value: 0x4A949A, bid: 236 }
+496 CampelCard { hand: "46545", value: 0x4A89A9, bid: 807 }
+497 CampelCard { hand: "47457", value: 0x4A7A97, bid: 923 }
+498 CampelCard { hand: "47748", value: 0x4A77A6, bid: 12 }
+499 CampelCard { hand: "484J8", value: 0x4A6A36, bid: 836 }
+500 CampelCard { hand: "4T6T6", value: 0x4A4848, bid: 617 }
+501 CampelCard { hand: "4K74K", value: 0x4A17A1, bid: 294 }
+502 CampelCard { hand: "533TT", value: 0x49BB44, bid: 71 }
+503 CampelCard { hand: "54488", value: 0x49AA66, bid: 965 }
+504 CampelCard { hand: "54566", value: 0x49A988, bid: 350 }
+505 CampelCard { hand: "54577", value: 0x49A977, bid: 877 }
+506 CampelCard { hand: "54584", value: 0x49A96A, bid: 451 }
+507 CampelCard { hand: "54K5K", value: 0x49A191, bid: 642 }
+508 CampelCard { hand: "552K2", value: 0x499C1C, bid: 515 }
+509 CampelCard { hand: "55788", value: 0x499766, bid: 109 }
+510 CampelCard { hand: "55QTT", value: 0x499244, bid: 674 }
+511 CampelCard { hand: "56QQ6", value: 0x498228, bid: 810 }
+512 CampelCard { hand: "57533", value: 0x4979BB, bid: 505 }
+513 CampelCard { hand: "595J9", value: 0x495935, bid: 607 }
+514 CampelCard { hand: "59T9T", value: 0x495454, bid: 957 }
+515 CampelCard { hand: "5T75T", value: 0x494794, bid: 592 }
+516 CampelCard { hand: "5TTK5", value: 0x494419, bid: 901 }
+517 CampelCard { hand: "5JJ66", value: 0x493388, bid: 170 }
+518 CampelCard { hand: "5K533", value: 0x4919BB, bid: 886 }
+519 CampelCard { hand: "5KKJ5", value: 0x491139, bid: 471 }
+520 CampelCard { hand: "5A588", value: 0x490966, bid: 444 }
+521 CampelCard { hand: "62269", value: 0x48CC85, bid: 675 }
+522 CampelCard { hand: "62T62", value: 0x48C48C, bid: 317 }
+523 CampelCard { hand: "65J65", value: 0x489389, bid: 858 }
+524 CampelCard { hand: "67476", value: 0x487A78, bid: 180 }
+525 CampelCard { hand: "67575", value: 0x487979, bid: 349 }
+526 CampelCard { hand: "6868Q", value: 0x486862, bid: 73 }
+527 CampelCard { hand: "68JJ6", value: 0x486338, bid: 280 }
+528 CampelCard { hand: "6T62T", value: 0x4848C4, bid: 977 }
+529 CampelCard { hand: "6Q36Q", value: 0x482B82, bid: 573 }
+530 CampelCard { hand: "6QQ6T", value: 0x482284, bid: 797 }
+531 CampelCard { hand: "6AA33", value: 0x4800BB, bid: 871 }
+532 CampelCard { hand: "73A3A", value: 0x47B0B0, bid: 605 }
+533 CampelCard { hand: "75272", value: 0x479C7C, bid: 902 }
+534 CampelCard { hand: "75A75", value: 0x479079, bid: 284 }
+535 CampelCard { hand: "76788", value: 0x478766, bid: 15 }
+536 CampelCard { hand: "7878A", value: 0x476760, bid: 481 }
+537 CampelCard { hand: "787Q8", value: 0x476726, bid: 906 }
+538 CampelCard { hand: "79798", value: 0x475756, bid: 843 }
+539 CampelCard { hand: "797A9", value: 0x475705, bid: 802 }
+540 CampelCard { hand: "7997J", value: 0x475573, bid: 289 }
+541 CampelCard { hand: "7TT66", value: 0x474488, bid: 570 }
+542 CampelCard { hand: "7J7AA", value: 0x473700, bid: 979 }
+543 CampelCard { hand: "7Q557", value: 0x472997, bid: 661 }
+544 CampelCard { hand: "7K7AK", value: 0x471701, bid: 165 }
+545 CampelCard { hand: "7KK7J", value: 0x471173, bid: 915 }
+546 CampelCard { hand: "82286", value: 0x46CC68, bid: 723 }
+547 CampelCard { hand: "83A38", value: 0x46B0B6, bid: 735 }
+548 CampelCard { hand: "84338", value: 0x46ABB6, bid: 590 }
+549 CampelCard { hand: "85895", value: 0x469659, bid: 113 }
+550 CampelCard { hand: "86A68", value: 0x468086, bid: 993 }
+551 CampelCard { hand: "877KK", value: 0x467711, bid: 611 }
+552 CampelCard { hand: "8787J", value: 0x467673, bid: 333 }
+553 CampelCard { hand: "8833T", value: 0x466BB4, bid: 225 }
+554 CampelCard { hand: "883QQ", value: 0x466B22, bid: 518 }
+555 CampelCard { hand: "88565", value: 0x466989, bid: 288 }
+556 CampelCard { hand: "88K55", value: 0x466199, bid: 673 }
+557 CampelCard { hand: "88A5A", value: 0x466090, bid: 314 }
+558 CampelCard { hand: "89696", value: 0x465858, bid: 354 }
+559 CampelCard { hand: "8998J", value: 0x465563, bid: 704 }
+560 CampelCard { hand: "8T8KT", value: 0x464614, bid: 792 }
+561 CampelCard { hand: "8J68J", value: 0x463863, bid: 431 }
+562 CampelCard { hand: "8JQ8J", value: 0x463263, bid: 472 }
+563 CampelCard { hand: "8Q84Q", value: 0x4626A2, bid: 240 }
+564 CampelCard { hand: "8A9A8", value: 0x460506, bid: 863 }
+565 CampelCard { hand: "8AJAJ", value: 0x460303, bid: 856 }
+566 CampelCard { hand: "92289", value: 0x45CC65, bid: 757 }
+567 CampelCard { hand: "92772", value: 0x45C77C, bid: 716 }
+568 CampelCard { hand: "93739", value: 0x45B7B5, bid: 443 }
+569 CampelCard { hand: "944JJ", value: 0x45AA33, bid: 5 }
+570 CampelCard { hand: "94646", value: 0x45A8A8, bid: 214 }
+571 CampelCard { hand: "9595Q", value: 0x459592, bid: 199 }
+572 CampelCard { hand: "9797Q", value: 0x457572, bid: 826 }
+573 CampelCard { hand: "992QQ", value: 0x455C22, bid: 265 }
+574 CampelCard { hand: "T22TA", value: 0x44CC40, bid: 896 }
+575 CampelCard { hand: "T2T72", value: 0x44C47C, bid: 328 }
+576 CampelCard { hand: "T2TQQ", value: 0x44C422, bid: 303 }
+577 CampelCard { hand: "T2JJ2", value: 0x44C33C, bid: 606 }
+578 CampelCard { hand: "T4Q4Q", value: 0x44A2A2, bid: 102 }
+579 CampelCard { hand: "T55JT", value: 0x449934, bid: 966 }
+580 CampelCard { hand: "T65T5", value: 0x448949, bid: 277 }
+581 CampelCard { hand: "T6Q6T", value: 0x448284, bid: 897 }
+582 CampelCard { hand: "T7744", value: 0x4477AA, bid: 954 }
+583 CampelCard { hand: "T8T77", value: 0x446477, bid: 565 }
+584 CampelCard { hand: "TT2KK", value: 0x444C11, bid: 880 }
+585 CampelCard { hand: "TT848", value: 0x4446A6, bid: 139 }
+586 CampelCard { hand: "TK77T", value: 0x441774, bid: 185 }
+587 CampelCard { hand: "J3K3K", value: 0x43B1B1, bid: 335 }
+588 CampelCard { hand: "J5445", value: 0x439AA9, bid: 622 }
+589 CampelCard { hand: "J6TT6", value: 0x438448, bid: 251 }
+590 CampelCard { hand: "J8558", value: 0x436996, bid: 87 }
+591 CampelCard { hand: "JT66J", value: 0x434883, bid: 104 }
+592 CampelCard { hand: "JTT4J", value: 0x4344A3, bid: 508 }
+593 CampelCard { hand: "JJ3KK", value: 0x433B11, bid: 58 }
+594 CampelCard { hand: "JJ799", value: 0x433755, bid: 226 }
+595 CampelCard { hand: "JJ88K", value: 0x433661, bid: 231 }
+596 CampelCard { hand: "JJQ4Q", value: 0x4332A2, bid: 167 }
+597 CampelCard { hand: "JQQ33", value: 0x4322BB, bid: 274 }
+598 CampelCard { hand: "JK4JK", value: 0x431A31, bid: 428 }
+599 CampelCard { hand: "JA9A9", value: 0x430505, bid: 119 }
+600 CampelCard { hand: "Q35Q5", value: 0x42B929, bid: 583 }
+601 CampelCard { hand: "Q57Q5", value: 0x429729, bid: 656 }
+602 CampelCard { hand: "Q7744", value: 0x4277AA, bid: 984 }
+603 CampelCard { hand: "Q878Q", value: 0x426762, bid: 567 }
+604 CampelCard { hand: "QQ88T", value: 0x422664, bid: 887 }
+605 CampelCard { hand: "QQ8AA", value: 0x422600, bid: 204 }
+606 CampelCard { hand: "QQKKJ", value: 0x422113, bid: 550 }
+607 CampelCard { hand: "QK7KQ", value: 0x421712, bid: 298 }
+608 CampelCard { hand: "K252K", value: 0x41C9C1, bid: 890 }
+609 CampelCard { hand: "K4466", value: 0x41AA88, bid: 484 }
+610 CampelCard { hand: "K4747", value: 0x41A7A7, bid: 206 }
+611 CampelCard { hand: "K553K", value: 0x4199B1, bid: 381 }
+612 CampelCard { hand: "K585K", value: 0x419691, bid: 967 }
+613 CampelCard { hand: "K6KJ6", value: 0x418138, bid: 840 }
+614 CampelCard { hand: "K8KQ8", value: 0x416126, bid: 764 }
+615 CampelCard { hand: "K9QQ9", value: 0x415225, bid: 996 }
+616 CampelCard { hand: "K9K96", value: 0x415158, bid: 342 }
+617 CampelCard { hand: "KT6TK", value: 0x414841, bid: 411 }
+618 CampelCard { hand: "KTTJK", value: 0x414431, bid: 184 }
+619 CampelCard { hand: "KQK3Q", value: 0x4121B2, bid: 824 }
+620 CampelCard { hand: "KK44T", value: 0x411AA4, bid: 837 }
+621 CampelCard { hand: "KK775", value: 0x411779, bid: 153 }
+622 CampelCard { hand: "KKJ88", value: 0x411366, bid: 56 }
+623 CampelCard { hand: "KA8K8", value: 0x410616, bid: 263 }
+624 CampelCard { hand: "A2772", value: 0x40C77C, bid: 492 }
+625 CampelCard { hand: "A3322", value: 0x40BBCC, bid: 376 }
+626 CampelCard { hand: "A43A3", value: 0x40AB0B, bid: 859 }
+627 CampelCard { hand: "A5A58", value: 0x409096, bid: 585 }
+628 CampelCard { hand: "A8AJ8", value: 0x406036, bid: 176 }
+629 CampelCard { hand: "ATA8T", value: 0x404064, bid: 41 }
+630 CampelCard { hand: "AJAJ9", value: 0x403035, bid: 30 }
+631 CampelCard { hand: "AQ9QA", value: 0x402520, bid: 456 }
+632 CampelCard { hand: "AKTAT", value: 0x401404, bid: 448 }
+633 CampelCard { hand: "AKA99", value: 0x401055, bid: 693 }
+634 CampelCard { hand: "AA277", value: 0x400C77, bid: 33 }
+635 CampelCard { hand: "AA557", value: 0x400997, bid: 536 }
+636 CampelCard { hand: "2223A", value: 0x3CCCB0, bid: 188 }
+637 CampelCard { hand: "2224J", value: 0x3CCCA3, bid: 670 }
+638 CampelCard { hand: "22329", value: 0x3CCBC5, bid: 973 }
+639 CampelCard { hand: "226Q2", value: 0x3CC82C, bid: 455 }
+640 CampelCard { hand: "22T29", value: 0x3CC4C5, bid: 239 }
+641 CampelCard { hand: "22TJ2", value: 0x3CC43C, bid: 680 }
+642 CampelCard { hand: "22J27", value: 0x3CC3C7, bid: 772 }
+643 CampelCard { hand: "23K22", value: 0x3CB1CC, bid: 961 }
+644 CampelCard { hand: "26522", value: 0x3C89CC, bid: 516 }
+645 CampelCard { hand: "2Q272", value: 0x3C2C7C, bid: 28 }
+646 CampelCard { hand: "2QQQJ", value: 0x3C2223, bid: 710 }
+647 CampelCard { hand: "2KJ22", value: 0x3C13CC, bid: 496 }
+648 CampelCard { hand: "2AJAA", value: 0x3C0300, bid: 543 }
+649 CampelCard { hand: "3222T", value: 0x3BCCC4, bid: 72 }
+650 CampelCard { hand: "333T7", value: 0x3BBB47, bid: 718 }
+651 CampelCard { hand: "333QA", value: 0x3BBB20, bid: 752 }
+652 CampelCard { hand: "33A34", value: 0x3BB0BA, bid: 325 }
+653 CampelCard { hand: "37633", value: 0x3B78BB, bid: 128 }
+654 CampelCard { hand: "37999", value: 0x3B7555, bid: 620 }
+655 CampelCard { hand: "3833K", value: 0x3B6BB1, bid: 801 }
+656 CampelCard { hand: "38488", value: 0x3B6A66, bid: 370 }
+657 CampelCard { hand: "3999A", value: 0x3B5550, bid: 750 }
+658 CampelCard { hand: "3J334", value: 0x3B3BBA, bid: 92 }
+659 CampelCard { hand: "3K733", value: 0x3B17BB, bid: 460 }
+660 CampelCard { hand: "4434T", value: 0x3AABA4, bid: 198 }
+661 CampelCard { hand: "44487", value: 0x3AAA67, bid: 672 }
+662 CampelCard { hand: "4448J", value: 0x3AAA63, bid: 468 }
+663 CampelCard { hand: "44542", value: 0x3AA9AC, bid: 216 }
+664 CampelCard { hand: "44J45", value: 0x3AA3A9, bid: 345 }
+665 CampelCard { hand: "44JK4", value: 0x3AA31A, bid: 861 }
+666 CampelCard { hand: "46474", value: 0x3A8A7A, bid: 127 }
+667 CampelCard { hand: "47767", value: 0x3A7787, bid: 425 }
+668 CampelCard { hand: "48344", value: 0x3A6BAA, bid: 744 }
+669 CampelCard { hand: "4J44Q", value: 0x3A3AA2, bid: 789 }
+670 CampelCard { hand: "4Q494", value: 0x3A2A5A, bid: 677 }
+671 CampelCard { hand: "522J2", value: 0x39CC3C, bid: 498 }
+672 CampelCard { hand: "55395", value: 0x399B59, bid: 75 }
+673 CampelCard { hand: "553A5", value: 0x399B09, bid: 918 }
+674 CampelCard { hand: "55456", value: 0x399A98, bid: 577 }
+675 CampelCard { hand: "55542", value: 0x3999AC, bid: 681 }
+676 CampelCard { hand: "55543", value: 0x3999AB, bid: 924 }
+677 CampelCard { hand: "5558J", value: 0x399963, bid: 645 }
+678 CampelCard { hand: "555TJ", value: 0x399943, bid: 549 }
+679 CampelCard { hand: "555TQ", value: 0x399942, bid: 637 }
+680 CampelCard { hand: "555J2", value: 0x39993C, bid: 911 }
+681 CampelCard { hand: "555QJ", value: 0x399923, bid: 759 }
+682 CampelCard { hand: "5565K", value: 0x399891, bid: 615 }
+683 CampelCard { hand: "55954", value: 0x39959A, bid: 419 }
+684 CampelCard { hand: "55A52", value: 0x39909C, bid: 506 }
+685 CampelCard { hand: "56557", value: 0x398997, bid: 489 }
+686 CampelCard { hand: "56667", value: 0x398887, bid: 293 }
+687 CampelCard { hand: "57444", value: 0x397AAA, bid: 846 }
+688 CampelCard { hand: "59QQQ", value: 0x395222, bid: 100 }
+689 CampelCard { hand: "5T655", value: 0x394899, bid: 39 }
+690 CampelCard { hand: "5T777", value: 0x394777, bid: 746 }
+691 CampelCard { hand: "5TTT6", value: 0x394448, bid: 647 }
+692 CampelCard { hand: "5TK55", value: 0x394199, bid: 798 }
+693 CampelCard { hand: "5J556", value: 0x393998, bid: 921 }
+694 CampelCard { hand: "5A55K", value: 0x390991, bid: 494 }
+695 CampelCard { hand: "5A5J5", value: 0x390939, bid: 627 }
+696 CampelCard { hand: "63233", value: 0x38BCBB, bid: 669 }
+697 CampelCard { hand: "63668", value: 0x38B886, bid: 389 }
+698 CampelCard { hand: "6444T", value: 0x38AAA4, bid: 560 }
+699 CampelCard { hand: "656T6", value: 0x389848, bid: 866 }
+700 CampelCard { hand: "6656J", value: 0x388983, bid: 417 }
+701 CampelCard { hand: "66K6A", value: 0x388180, bid: 972 }
+702 CampelCard { hand: "6888A", value: 0x386660, bid: 891 }
+703 CampelCard { hand: "68J66", value: 0x386388, bid: 839 }
+704 CampelCard { hand: "69799", value: 0x385755, bid: 362 }
+705 CampelCard { hand: "699J9", value: 0x385535, bid: 662 }
+706 CampelCard { hand: "6J6K6", value: 0x383818, bid: 13 }
+707 CampelCard { hand: "6Q636", value: 0x3828B8, bid: 557 }
+708 CampelCard { hand: "6A466", value: 0x380A88, bid: 948 }
+709 CampelCard { hand: "6A669", value: 0x380885, bid: 779 }
+710 CampelCard { hand: "73577", value: 0x37B977, bid: 474 }
+711 CampelCard { hand: "75J77", value: 0x379377, bid: 469 }
+712 CampelCard { hand: "7747Q", value: 0x377A72, bid: 609 }
+713 CampelCard { hand: "7J877", value: 0x373677, bid: 538 }
+714 CampelCard { hand: "7QQ3Q", value: 0x3722B2, bid: 3 }
+715 CampelCard { hand: "7A577", value: 0x370977, bid: 326 }
+716 CampelCard { hand: "7AKAA", value: 0x370100, bid: 868 }
+717 CampelCard { hand: "84446", value: 0x36AAA8, bid: 664 }
+718 CampelCard { hand: "84KKK", value: 0x36A111, bid: 212 }
+719 CampelCard { hand: "85333", value: 0x369BBB, bid: 908 }
+720 CampelCard { hand: "8588T", value: 0x369664, bid: 850 }
+721 CampelCard { hand: "86288", value: 0x368C66, bid: 115 }
+722 CampelCard { hand: "86883", value: 0x36866B, bid: 942 }
+723 CampelCard { hand: "885Q8", value: 0x366926, bid: 142 }
+724 CampelCard { hand: "88876", value: 0x366678, bid: 499 }
+725 CampelCard { hand: "89997", value: 0x365557, bid: 822 }
+726 CampelCard { hand: "8T688", value: 0x364866, bid: 654 }
+727 CampelCard { hand: "8J9JJ", value: 0x363533, bid: 875 }
+728 CampelCard { hand: "8JTTT", value: 0x363444, bid: 220 }
+729 CampelCard { hand: "8Q8A8", value: 0x362606, bid: 401 }
+730 CampelCard { hand: "8K288", value: 0x361C66, bid: 197 }
+731 CampelCard { hand: "922J2", value: 0x35CC3C, bid: 99 }
+732 CampelCard { hand: "92888", value: 0x35C666, bid: 548 }
+733 CampelCard { hand: "93338", value: 0x35BBB6, bid: 76 }
+734 CampelCard { hand: "93J33", value: 0x35B3BB, bid: 786 }
+735 CampelCard { hand: "94996", value: 0x35A558, bid: 761 }
+736 CampelCard { hand: "94A44", value: 0x35A0AA, bid: 987 }
+737 CampelCard { hand: "98868", value: 0x356686, bid: 182 }
+738 CampelCard { hand: "9888T", value: 0x356664, bid: 324 }
+739 CampelCard { hand: "9989T", value: 0x355654, bid: 394 }
+740 CampelCard { hand: "99Q92", value: 0x35525C, bid: 454 }
+741 CampelCard { hand: "9J399", value: 0x353B55, bid: 600 }
+742 CampelCard { hand: "9J99Q", value: 0x353552, bid: 438 }
+743 CampelCard { hand: "9Q899", value: 0x352655, bid: 254 }
+744 CampelCard { hand: "9K299", value: 0x351C55, bid: 903 }
+745 CampelCard { hand: "9K333", value: 0x351BBB, bid: 267 }
+746 CampelCard { hand: "T2777", value: 0x34C777, bid: 832 }
+747 CampelCard { hand: "T5TT3", value: 0x34944B, bid: 793 }
+748 CampelCard { hand: "T7TJT", value: 0x347434, bid: 623 }
+749 CampelCard { hand: "T8TT6", value: 0x346448, bid: 771 }
+750 CampelCard { hand: "TT87T", value: 0x344674, bid: 424 }
+751 CampelCard { hand: "TT8T9", value: 0x344645, bid: 857 }
+752 CampelCard { hand: "TTTQ2", value: 0x34442C, bid: 31 }
+753 CampelCard { hand: "TTTQJ", value: 0x344423, bid: 747 }
+754 CampelCard { hand: "TTJTK", value: 0x344341, bid: 497 }
+755 CampelCard { hand: "TJTAT", value: 0x343404, bid: 775 }
+756 CampelCard { hand: "J2333", value: 0x33CBBB, bid: 845 }
+757 CampelCard { hand: "J3336", value: 0x33BBB8, bid: 705 }
+758 CampelCard { hand: "J33Q3", value: 0x33BB2B, bid: 146 }
+759 CampelCard { hand: "J3444", value: 0x33BAAA, bid: 336 }
+760 CampelCard { hand: "J4442", value: 0x33AAAC, bid: 297 }
+761 CampelCard { hand: "J6636", value: 0x3388B8, bid: 270 }
+762 CampelCard { hand: "J88T8", value: 0x336646, bid: 883 }
+763 CampelCard { hand: "J9799", value: 0x335755, bid: 855 }
+764 CampelCard { hand: "J99T9", value: 0x335545, bid: 695 }
+765 CampelCard { hand: "JTT2T", value: 0x3344C4, bid: 619 }
+766 CampelCard { hand: "JQ888", value: 0x332666, bid: 177 }
+767 CampelCard { hand: "JQQ9Q", value: 0x332252, bid: 828 }
+768 CampelCard { hand: "JK777", value: 0x331777, bid: 734 }
+769 CampelCard { hand: "JKK2K", value: 0x3311C1, bid: 991 }
+770 CampelCard { hand: "JA999", value: 0x330555, bid: 541 }
+771 CampelCard { hand: "JAAAK", value: 0x330001, bid: 527 }
+772 CampelCard { hand: "Q28QQ", value: 0x32C622, bid: 132 }
+773 CampelCard { hand: "Q3QQ5", value: 0x32B229, bid: 24 }
+774 CampelCard { hand: "Q4999", value: 0x32A555, bid: 971 }
+775 CampelCard { hand: "Q666J", value: 0x328883, bid: 473 }
+776 CampelCard { hand: "Q7QQ6", value: 0x327228, bid: 359 }
+777 CampelCard { hand: "QT3QQ", value: 0x324B22, bid: 93 }
+778 CampelCard { hand: "QTTT8", value: 0x324446, bid: 576 }
+779 CampelCard { hand: "QTQQ4", value: 0x32422A, bid: 103 }
+780 CampelCard { hand: "QQ6JQ", value: 0x322832, bid: 366 }
+781 CampelCard { hand: "QQ8QT", value: 0x322624, bid: 803 }
+782 CampelCard { hand: "QQ9Q8", value: 0x322526, bid: 504 }
+783 CampelCard { hand: "QQJ7Q", value: 0x322372, bid: 951 }
+784 CampelCard { hand: "QQQ63", value: 0x32228B, bid: 341 }
+785 CampelCard { hand: "QQKQA", value: 0x322120, bid: 287 }
+786 CampelCard { hand: "QKKKA", value: 0x321110, bid: 375 }
+787 CampelCard { hand: "K3Q33", value: 0x31B2BB, bid: 433 }
+788 CampelCard { hand: "K4442", value: 0x31AAAC, bid: 962 }
+789 CampelCard { hand: "K5455", value: 0x319A99, bid: 440 }
+790 CampelCard { hand: "K5559", value: 0x319995, bid: 571 }
+791 CampelCard { hand: "K5KKT", value: 0x319114, bid: 817 }
+792 CampelCard { hand: "K8Q88", value: 0x316266, bid: 688 }
+793 CampelCard { hand: "K9666", value: 0x315888, bid: 97 }
+794 CampelCard { hand: "KJK9K", value: 0x313151, bid: 116 }
+795 CampelCard { hand: "KJKKT", value: 0x313114, bid: 235 }
+796 CampelCard { hand: "KQQQ2", value: 0x31222C, bid: 703 }
+797 CampelCard { hand: "KK87K", value: 0x311671, bid: 347 }
+798 CampelCard { hand: "KKK47", value: 0x3111A7, bid: 544 }
+799 CampelCard { hand: "A6JAA", value: 0x308300, bid: 643 }
+800 CampelCard { hand: "A777K", value: 0x307771, bid: 118 }
+801 CampelCard { hand: "A8222", value: 0x306CCC, bid: 983 }
+802 CampelCard { hand: "A8777", value: 0x306777, bid: 168 }
+803 CampelCard { hand: "A8AAQ", value: 0x306002, bid: 596 }
+804 CampelCard { hand: "A9949", value: 0x3055A5, bid: 340 }
+805 CampelCard { hand: "ATT4T", value: 0x3044A4, bid: 487 }
+806 CampelCard { hand: "ATA2A", value: 0x3040C0, bid: 829 }
+807 CampelCard { hand: "AJ222", value: 0x303CCC, bid: 320 }
+808 CampelCard { hand: "AJ3AA", value: 0x303B00, bid: 864 }
+809 CampelCard { hand: "AJA4A", value: 0x3030A0, bid: 736 }
+810 CampelCard { hand: "AQAAJ", value: 0x302003, bid: 712 }
+811 CampelCard { hand: "AKKK9", value: 0x301115, bid: 261 }
+812 CampelCard { hand: "AAJ7A", value: 0x300370, bid: 4 }
+813 CampelCard { hand: "AAA69", value: 0x300085, bid: 25 }
+814 CampelCard { hand: "AAA9T", value: 0x300054, bid: 60 }
+815 CampelCard { hand: "22626", value: 0x2CC8C8, bid: 117 }
+816 CampelCard { hand: "22JJ2", value: 0x2CC33C, bid: 578 }
+817 CampelCard { hand: "25252", value: 0x2C9C9C, bid: 800 }
+818 CampelCard { hand: "25525", value: 0x2C99C9, bid: 430 }
+819 CampelCard { hand: "26626", value: 0x2C88C8, bid: 321 }
+820 CampelCard { hand: "28228", value: 0x2C6CC6, bid: 399 }
+821 CampelCard { hand: "29992", value: 0x2C555C, bid: 694 }
+822 CampelCard { hand: "2T2TT", value: 0x2C4C44, bid: 229 }
+823 CampelCard { hand: "2Q2QQ", value: 0x2C2C22, bid: 949 }
+824 CampelCard { hand: "2KKK2", value: 0x2C111C, bid: 193 }
+825 CampelCard { hand: "2A2AA", value: 0x2C0C00, bid: 46 }
+826 CampelCard { hand: "333TT", value: 0x2BBB44, bid: 539 }
+827 CampelCard { hand: "333JJ", value: 0x2BBB33, bid: 913 }
+828 CampelCard { hand: "33535", value: 0x2BB9B9, bid: 248 }
+829 CampelCard { hand: "33663", value: 0x2BB88B, bid: 281 }
+830 CampelCard { hand: "37733", value: 0x2B77BB, bid: 553 }
+831 CampelCard { hand: "39399", value: 0x2B5B55, bid: 597 }
+832 CampelCard { hand: "3TTT3", value: 0x2B444B, bid: 230 }
+833 CampelCard { hand: "3QQ33", value: 0x2B22BB, bid: 616 }
+834 CampelCard { hand: "3QQQ3", value: 0x2B222B, bid: 831 }
+835 CampelCard { hand: "3K3K3", value: 0x2B1B1B, bid: 402 }
+836 CampelCard { hand: "43334", value: 0x2ABBBA, bid: 157 }
+837 CampelCard { hand: "44242", value: 0x2AACAC, bid: 463 }
+838 CampelCard { hand: "44554", value: 0x2AA99A, bid: 790 }
+839 CampelCard { hand: "4TTT4", value: 0x2A444A, bid: 668 }
+840 CampelCard { hand: "4JJ44", value: 0x2A33AA, bid: 488 }
+841 CampelCard { hand: "4A4AA", value: 0x2A0A00, bid: 884 }
+842 CampelCard { hand: "53553", value: 0x29B99B, bid: 458 }
+843 CampelCard { hand: "55599", value: 0x299955, bid: 999 }
+844 CampelCard { hand: "555JJ", value: 0x299933, bid: 927 }
+845 CampelCard { hand: "56556", value: 0x298998, bid: 956 }
+846 CampelCard { hand: "56656", value: 0x298898, bid: 568 }
+847 CampelCard { hand: "57557", value: 0x297997, bid: 19 }
+848 CampelCard { hand: "66363", value: 0x288B8B, bid: 432 }
+849 CampelCard { hand: "66464", value: 0x288A8A, bid: 7 }
+850 CampelCard { hand: "66677", value: 0x288877, bid: 64 }
+851 CampelCard { hand: "66A6A", value: 0x288080, bid: 344 }
+852 CampelCard { hand: "69696", value: 0x285858, bid: 209 }
+853 CampelCard { hand: "6K66K", value: 0x281881, bid: 148 }
+854 CampelCard { hand: "72227", value: 0x27CCC7, bid: 88 }
+855 CampelCard { hand: "77337", value: 0x277BB7, bid: 459 }
+856 CampelCard { hand: "77447", value: 0x277AA7, bid: 691 }
+857 CampelCard { hand: "77878", value: 0x277676, bid: 379 }
+858 CampelCard { hand: "77888", value: 0x277666, bid: 135 }
+859 CampelCard { hand: "77TT7", value: 0x277447, bid: 245 }
+860 CampelCard { hand: "77KK7", value: 0x277117, bid: 69 }
+861 CampelCard { hand: "7T7TT", value: 0x274744, bid: 358 }
+862 CampelCard { hand: "7AA77", value: 0x270077, bid: 914 }
+863 CampelCard { hand: "7AAA7", value: 0x270007, bid: 253 }
+864 CampelCard { hand: "85585", value: 0x269969, bid: 658 }
+865 CampelCard { hand: "88668", value: 0x266886, bid: 81 }
+866 CampelCard { hand: "88998", value: 0x266556, bid: 587 }
+867 CampelCard { hand: "89998", value: 0x265556, bid: 938 }
+868 CampelCard { hand: "8T8TT", value: 0x264644, bid: 346 }
+869 CampelCard { hand: "8QQQ8", value: 0x262226, bid: 470 }
+870 CampelCard { hand: "94994", value: 0x25A55A, bid: 507 }
+871 CampelCard { hand: "99559", value: 0x255995, bid: 169 }
+872 CampelCard { hand: "999JJ", value: 0x255533, bid: 136 }
+873 CampelCard { hand: "9QQ99", value: 0x252255, bid: 296 }
+874 CampelCard { hand: "9QQ9Q", value: 0x252252, bid: 420 }
+875 CampelCard { hand: "T55T5", value: 0x249949, bid: 715 }
+876 CampelCard { hand: "T8T88", value: 0x246466, bid: 528 }
+877 CampelCard { hand: "T99T9", value: 0x245545, bid: 332 }
+878 CampelCard { hand: "T9T9T", value: 0x245454, bid: 931 }
+879 CampelCard { hand: "TT666", value: 0x244888, bid: 860 }
+880 CampelCard { hand: "TT6T6", value: 0x244848, bid: 143 }
+881 CampelCard { hand: "TTT55", value: 0x244499, bid: 275 }
+882 CampelCard { hand: "TTATA", value: 0x244040, bid: 811 }
+883 CampelCard { hand: "TJTTJ", value: 0x243443, bid: 310 }
+884 CampelCard { hand: "J66J6", value: 0x238838, bid: 36 }
+885 CampelCard { hand: "J777J", value: 0x237773, bid: 279 }
+886 CampelCard { hand: "J88J8", value: 0x236636, bid: 834 }
+887 CampelCard { hand: "Q444Q", value: 0x22AAA2, bid: 1000 }
+888 CampelCard { hand: "Q77QQ", value: 0x227722, bid: 767 }
+889 CampelCard { hand: "QTQQT", value: 0x224224, bid: 588 }
+890 CampelCard { hand: "QQ555", value: 0x222999, bid: 241 }
+891 CampelCard { hand: "QQ66Q", value: 0x222882, bid: 748 }
+892 CampelCard { hand: "QQQJJ", value: 0x222233, bid: 682 }
+893 CampelCard { hand: "QAQAQ", value: 0x220202, bid: 421 }
+894 CampelCard { hand: "QAAQA", value: 0x220020, bid: 493 }
+895 CampelCard { hand: "K8K88", value: 0x216166, bid: 870 }
+896 CampelCard { hand: "KJKJK", value: 0x213131, bid: 724 }
+897 CampelCard { hand: "KQQQK", value: 0x212221, bid: 96 }
+898 CampelCard { hand: "KK222", value: 0x211CCC, bid: 210 }
+899 CampelCard { hand: "KK66K", value: 0x211881, bid: 768 }
+900 CampelCard { hand: "KKKQQ", value: 0x211122, bid: 219 }
+901 CampelCard { hand: "A333A", value: 0x20BBB0, bid: 412 }
+902 CampelCard { hand: "A999A", value: 0x205550, bid: 885 }
+903 CampelCard { hand: "AJAJA", value: 0x203030, bid: 140 }
+904 CampelCard { hand: "AA222", value: 0x200CCC, bid: 952 }
+905 CampelCard { hand: "AA3A3", value: 0x200B0B, bid: 819 }
+906 CampelCard { hand: "AA6A6", value: 0x200808, bid: 461 }
+907 CampelCard { hand: "AAKKK", value: 0x200111, bid: 364 }
+908 CampelCard { hand: "22225", value: 0x1CCCC9, bid: 900 }
+909 CampelCard { hand: "22228", value: 0x1CCCC6, bid: 447 }
+910 CampelCard { hand: "2222T", value: 0x1CCCC4, bid: 357 }
+911 CampelCard { hand: "2222J", value: 0x1CCCC3, bid: 749 }
+912 CampelCard { hand: "222Q2", value: 0x1CCC2C, bid: 944 }
+913 CampelCard { hand: "22422", value: 0x1CCACC, bid: 581 }
+914 CampelCard { hand: "22622", value: 0x1CC8CC, bid: 932 }
+915 CampelCard { hand: "2TTTT", value: 0x1C4444, bid: 572 }
+916 CampelCard { hand: "33338", value: 0x1BBBB6, bid: 403 }
+917 CampelCard { hand: "333T3", value: 0x1BBB4B, bid: 201 }
+918 CampelCard { hand: "33533", value: 0x1BB9BB, bid: 814 }
+919 CampelCard { hand: "33J33", value: 0x1BB3BB, bid: 844 }
+920 CampelCard { hand: "39333", value: 0x1B5BBB, bid: 50 }
+921 CampelCard { hand: "3Q333", value: 0x1B2BBB, bid: 476 }
+922 CampelCard { hand: "44424", value: 0x1AAACA, bid: 85 }
+923 CampelCard { hand: "44449", value: 0x1AAAA5, bid: 106 }
+924 CampelCard { hand: "4444T", value: 0x1AAAA4, bid: 8 }
+925 CampelCard { hand: "44744", value: 0x1AA7AA, bid: 264 }
+926 CampelCard { hand: "44J44", value: 0x1AA3AA, bid: 738 }
+927 CampelCard { hand: "4A444", value: 0x1A0AAA, bid: 635 }
+928 CampelCard { hand: "54444", value: 0x19AAAA, bid: 926 }
+929 CampelCard { hand: "54555", value: 0x19A999, bid: 545 }
+930 CampelCard { hand: "55558", value: 0x199996, bid: 37 }
+931 CampelCard { hand: "5555Q", value: 0x199992, bid: 369 }
+932 CampelCard { hand: "5555K", value: 0x199991, bid: 355 }
+933 CampelCard { hand: "55575", value: 0x199979, bid: 517 }
+934 CampelCard { hand: "55J55", value: 0x199399, bid: 741 }
+935 CampelCard { hand: "56555", value: 0x198999, bid: 159 }
+936 CampelCard { hand: "59999", value: 0x195555, bid: 686 }
+937 CampelCard { hand: "5A555", value: 0x190999, bid: 782 }
+938 CampelCard { hand: "64666", value: 0x18A888, bid: 62 }
+939 CampelCard { hand: "66566", value: 0x188988, bid: 44 }
+940 CampelCard { hand: "666Q6", value: 0x188828, bid: 22 }
+941 CampelCard { hand: "66966", value: 0x188588, bid: 208 }
+942 CampelCard { hand: "66J66", value: 0x188388, bid: 678 }
+943 CampelCard { hand: "67777", value: 0x187777, bid: 935 }
+944 CampelCard { hand: "69999", value: 0x185555, bid: 531 }
+945 CampelCard { hand: "6T666", value: 0x184888, bid: 998 }
+946 CampelCard { hand: "6KKKK", value: 0x181111, bid: 410 }
+947 CampelCard { hand: "7TTTT", value: 0x174444, bid: 327 }
+948 CampelCard { hand: "7J777", value: 0x173777, bid: 986 }
+949 CampelCard { hand: "7A777", value: 0x170777, bid: 522 }
+950 CampelCard { hand: "87888", value: 0x167666, bid: 591 }
+951 CampelCard { hand: "88288", value: 0x166C66, bid: 975 }
+952 CampelCard { hand: "88488", value: 0x166A66, bid: 988 }
+953 CampelCard { hand: "88886", value: 0x166668, bid: 353 }
+954 CampelCard { hand: "88889", value: 0x166665, bid: 699 }
+955 CampelCard { hand: "8888J", value: 0x166663, bid: 650 }
+956 CampelCard { hand: "888K8", value: 0x166616, bid: 559 }
+957 CampelCard { hand: "8TTTT", value: 0x164444, bid: 285 }
+958 CampelCard { hand: "8Q888", value: 0x162666, bid: 660 }
+959 CampelCard { hand: "8QQQQ", value: 0x162222, bid: 799 }
+960 CampelCard { hand: "95555", value: 0x159999, bid: 501 }
+961 CampelCard { hand: "97999", value: 0x157555, bid: 778 }
+962 CampelCard { hand: "99299", value: 0x155C55, bid: 796 }
+963 CampelCard { hand: "99998", value: 0x155556, bid: 958 }
+964 CampelCard { hand: "999A9", value: 0x155505, bid: 172 }
+965 CampelCard { hand: "99J99", value: 0x155355, bid: 305 }
+966 CampelCard { hand: "9QQQQ", value: 0x152222, bid: 852 }
+967 CampelCard { hand: "9KKKK", value: 0x151111, bid: 10 }
+968 CampelCard { hand: "TTTTQ", value: 0x144442, bid: 351 }
+969 CampelCard { hand: "TJTTT", value: 0x143444, bid: 112 }
+970 CampelCard { hand: "TQQQQ", value: 0x142222, bid: 636 }
+971 CampelCard { hand: "TKTTT", value: 0x141444, bid: 602 }
+972 CampelCard { hand: "J8JJJ", value: 0x136333, bid: 215 }
+973 CampelCard { hand: "JKKKK", value: 0x131111, bid: 98 }
+974 CampelCard { hand: "JAAAA", value: 0x130000, bid: 467 }
+975 CampelCard { hand: "Q7777", value: 0x127777, bid: 337 }
+976 CampelCard { hand: "Q7QQQ", value: 0x127222, bid: 579 }
+977 CampelCard { hand: "QJJJJ", value: 0x123333, bid: 700 }
+978 CampelCard { hand: "QQ5QQ", value: 0x122922, bid: 533 }
+979 CampelCard { hand: "QQQ4Q", value: 0x1222A2, bid: 525 }
+980 CampelCard { hand: "QQQ6Q", value: 0x122282, bid: 936 }
+981 CampelCard { hand: "QQQJQ", value: 0x122232, bid: 641 }
+982 CampelCard { hand: "QQQQ3", value: 0x12222B, bid: 49 }
+983 CampelCard { hand: "QQQQK", value: 0x122221, bid: 133 }
+984 CampelCard { hand: "QKKKK", value: 0x121111, bid: 257 }
+985 CampelCard { hand: "KTKKK", value: 0x114111, bid: 976 }
+986 CampelCard { hand: "KK2KK", value: 0x111C11, bid: 144 }
+987 CampelCard { hand: "KK7KK", value: 0x111711, bid: 51 }
+988 CampelCard { hand: "KKK3K", value: 0x1111B1, bid: 631 }
+989 CampelCard { hand: "KKK4K", value: 0x1111A1, bid: 625 }
+990 CampelCard { hand: "KKK5K", value: 0x111191, bid: 835 }
+991 CampelCard { hand: "KKKKA", value: 0x111110, bid: 513 }
+992 CampelCard { hand: "A3333", value: 0x10BBBB, bid: 964 }
+993 CampelCard { hand: "AA3AA", value: 0x100B00, bid: 462 }
+994 CampelCard { hand: "AA9AA", value: 0x100500, bid: 869 }
+995 CampelCard { hand: "AAA5A", value: 0x100090, bid: 994 }
+996 CampelCard { hand: "AAAQA", value: 0x100020, bid: 769 }
+997 CampelCard { hand: "AAAA2", value: 0x10000C, bid: 57 }
+998 CampelCard { hand: "AAAA7", value: 0x100007, bid: 638 }
+999 CampelCard { hand: "JJJJJ", value: 0x33333, bid: 628 }

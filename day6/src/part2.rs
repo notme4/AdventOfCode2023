@@ -13,7 +13,6 @@ fn margin_of_error_race(z: (f64, f64)) -> f64 {
     let time = f64::from(time);
     let dist = f64::from(dist) + 0.0001;
     eprintln!("time: {}, dist: {}", time, dist);
-    // zeros of (-x^2 + time*x - dist)
     let discriminant = (time * time + 4.0 * -dist).sqrt();
     eprintln!("discriminant: {}", discriminant);
     eprintln!(
@@ -23,8 +22,6 @@ fn margin_of_error_race(z: (f64, f64)) -> f64 {
         ((-time - discriminant) / -2.0).floor() - ((-time + discriminant) / -2.0).floor()
     );
     return ((-time - discriminant) / -2.0).floor() - ((-time + discriminant) / -2.0).floor();
-    //-b +- sqrt(b^2 - 4*a*c) / 2a
-    //-time +- sqrt(time*time - 4*-dist) / -2
 }
 
 pub fn find_margin_of_error(path: &Path) -> f64 {
