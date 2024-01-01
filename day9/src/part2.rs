@@ -14,7 +14,7 @@ fn get_next(hist: Vec<i64>) -> i64 {
     }
     let mut a = hist.iter();
     let first = a.next().unwrap();
-    let last = hist.last().unwrap();
+    //let last = hist.last().unwrap();
     let seq = get_next(
         hist.iter()
             .zip(a)
@@ -22,13 +22,8 @@ fn get_next(hist: Vec<i64>) -> i64 {
             .collect::<Vec<i64>>(),
     );
 
-    eprintln!("last: {}", last);
+    //eprintln!("last: {first}");
     return first - seq;
-}
-
-fn eprint_through<T: std::fmt::Debug>(t: T) -> T {
-    eprintln!("{:?}", t);
-    return t;
 }
 
 pub fn func(path: &Path) -> i64 {
