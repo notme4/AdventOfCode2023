@@ -1,129 +1,138 @@
 use regex::Regex;
+use std::fmt::Debug;
 use std::fs::read_to_string;
 use std::path::Path;
+use std::str::FromStr;
 
-fn split_formats(line: &str) -> (Vec<&str>, Vec<u64>) {
-    //eprint!("\nstart split_formats: ");
-    let (conditions, consecutives) = line.split_at(line.find(" ").unwrap());
-
-    return (
-        conditions.split(".").filter(|val| val.len() > 0).collect(),
-        consecutives
-            .trim()
-            .split(",")
-            .map(|val| val.parse::<u64>().unwrap())
-            .collect(),
-    );
+fn str_to_vec_str<'a>(s: &'a str, sep: &str) -> Vec<&'a str> {
+    return s.split(sep).filter(|val| val.len() > 0).collect();
 }
 
-fn reduce_fmt(mut fmt: (Vec<&str>, Vec<u64>)) -> (Vec<&str>, Vec<u64>) {
-    //eprint!("start reduce_fmts: ");
-    while fmt.1.len() != 0 {
-        if fmt.0[0].len() != fmt.1[0].try_into().unwrap() {
-            break;
-        }
-        fmt.0.remove(0);
-        fmt.1.remove(0);
-    }
-    while fmt.1.len() != 0 {
-        if fmt.0.last().unwrap().len() != fmt.1.last().copied().unwrap().try_into().unwrap() {
-            break;
-        }
-        fmt.0.remove(fmt.0.len() - 1);
-        fmt.1.remove(fmt.1.len() - 1);
-    }
-    return fmt;
+fn str_to_vec<T: FromStr>(s: &str, sep: &str) -> Vec<T>
+where
+    <T as FromStr>::Err: Debug,
+{
+    return str_to_vec_str(s, sep)
+        .into_iter()
+        .map(|val| {
+            val.parse::<T>().unwrap() //_or_else(|_| panic!("invalid parse unwrapping"))
+        })
+        .collect();
 }
 
-fn combine_and_regex(fmt: (Vec<&str>, Vec<u64>)) -> (String, Regex, u64) {
-    //eprint!("start combine_and_regex: ");
-    let r = fmt.1.iter().fold(r"\.+".to_string(), |mut s, v| {
-        s.push_str(r"#{");
-        s.push_str(&v.to_string());
-        s.push_str(r"}\.+");
-        s
-    });
-    return (
-        fmt.0.iter().fold(".".to_string(), |mut s, v| {
-            s.push_str(*v);
-            s.push_str(".");
-            s
-        }),
-        Regex::new(&r).unwrap(),
-        fmt.1.iter().sum(),
-    );
+#[derive(Debug, Clone)]
+struct SpringConditions {
+    springs: String,
+    consecutive_bad_springs: Vec<usize>,
+    regex: Regex,
+}
+
+impl SpringConditions {
+    fn new(line: &str) -> SpringConditions {
+        let (conditions, consecutives) = line.split_at(line.find(" ").unwrap());
+        // removes redundant '.'
+        let conditions = str_to_vec_str(conditions.trim(), ".")
+            .into_iter()
+            .fold(".".to_string(), |s, v| format!("{s}{v}."));
+        let consecutives = str_to_vec::<usize>(consecutives.trim(), ",");
+        let regex_string = consecutives
+            .iter()
+            .fold(r"\.+".to_string(), |s, v| format!("{s}#{{{v}}}\\.+"));
+        let regex = Regex::new(&regex_string).unwrap();
+        return SpringConditions {
+            springs: conditions,
+            consecutive_bad_springs: consecutives,
+            regex: regex,
+        };
+    }
 }
 
 // gets the next highest value with the same number of ones set
 // implementation adjusted from https://www.geeksforgeeks.org/next-higher-number-with-same-number-of-set-bits/
-fn snoob(x: u64) -> u64 {
-    if x == 0 {
-        return 0;
-    }
-    let x = x as i64;
-    let right_one = x & -x;
-    let next_higher_one_bit = x + right_one;
-    let mut right_ones_pattern = x ^ next_higher_one_bit;
-    right_ones_pattern /= right_one;
-    right_ones_pattern >>= 2;
-    return (next_higher_one_bit | right_ones_pattern) as u64;
+struct Snoob {
+    i: u64,
+    max: u64,
 }
 
-fn get_possible_replacements(sr: (String, Regex, u64)) -> Vec<String> {
-    if sr.2 == 0 {
-        return vec![sr.0];
+impl Snoob {
+    fn new(num_set_bits: u8, max: u64) -> Snoob {
+        let i = 2_u64.pow(num_set_bits as u32) - 1;
+        return Snoob { i: i, max: max };
     }
-    //eprint!("start get_possible_replacements: ");
-    let mut i = 2_u64.pow(
-        <u64 as TryInto<u32>>::try_into(sr.2).unwrap()
-            - <usize as TryInto<u32>>::try_into(sr.0.chars().filter(|c| *c == '#').count())
-                .unwrap(),
-    ) - 1;
-    if i == 0 {
-        return vec![sr.0];
-    }
-    let max = 2_u64.pow(
-        sr.0.chars()
-            .filter(|c| *c == '?')
-            .count()
-            .try_into()
-            .unwrap(),
-    );
-    let mut v = Vec::<String>::new();
-    eprintln!("i: {i} max: {max}");
-    while i < max.into() {
-        //eprint!(" i: {i}");
-        let mut j = 1;
-        let mut s = sr.0.clone().chars().collect::<Vec<char>>();
-        let mut k = s.len() - 1;
-        loop {
-            if s[k] == '?' {
-                if j & i != 0 {
-                    s[k] = '#';
-                } else {
-                    s[k] = '.';
-                }
-                j <<= 1;
-            }
-            if k == 0 {
-                break;
-            }
-            k -= 1;
+}
+
+impl Iterator for Snoob {
+    type Item = u64;
+
+    fn next(&mut self) -> Option<Self::Item> {
+        if self.i == 0 {
+            return None;
         }
-        v.push(s.iter().collect());
-        i = snoob(i);
+        let old = self.i;
+        let x = self.i as i64;
+        let right_one = x & -x;
+        let next_higher_one_bit = x + right_one;
+        let mut right_ones_pattern = x ^ next_higher_one_bit;
+        right_ones_pattern /= right_one;
+        right_ones_pattern >>= 2;
+        self.i = (next_higher_one_bit | right_ones_pattern) as u64;
+        if old <= self.max {
+            return Some(old);
+        }
+        return None;
     }
-    eprintln!("{:?}", v);
-    return v
-        .iter()
-        .filter_map(|s| {
-            if sr.1.is_match_at(s, 0) {
-                Some(s.to_owned())
+}
+
+fn get_next_possible_replacement(s: String, i: u64) -> String {
+    let mut j = 1;
+    let mut s = s.chars().collect::<Vec<char>>();
+    for c in s.iter_mut().rev() {
+        if *c == '?' {
+            if j & i != 0 {
+                *c = '#';
             } else {
-                None
+                *c = '.';
             }
-        })
-        .collect();
+            j <<= 1;
+        }
+    }
+    return s.iter().collect();
+}
+
+fn get_possible_replacements(spring_conditions: SpringConditions) -> u64 {
+    if !spring_conditions.springs.contains("?") {
+        return 1;
+    }
+    let num_hashes = spring_conditions
+        .springs
+        .chars()
+        .filter(|c| *c == '#')
+        .count();
+    let num_needed_hashes: usize = spring_conditions.consecutive_bad_springs.iter().sum();
+    //eprint!("start get_possible_replacements: ");
+    let num_set_bits = <usize as TryInto<u8>>::try_into(num_needed_hashes - num_hashes).unwrap();
+    if num_set_bits == 0 {
+        return 1;
+    }
+    let num_q_marks = spring_conditions
+        .springs
+        .chars()
+        .filter(|c| *c == '?')
+        .count();
+    let max = 2_u64.pow(num_q_marks.try_into().unwrap());
+    let mut result = 0;
+    eprintln!("num_set_bits: {num_set_bits}, max: {max}");
+    for i in Snoob::new(num_set_bits, max) {
+        //eprint!(" i: {i}");
+        let s = get_next_possible_replacement(spring_conditions.springs.clone(), i);
+        eprint!("s: {s}");
+        if spring_conditions.regex.is_match_at(&s, 0) {
+            eprint!(" <<< ");
+            result += 1;
+        }
+        eprint!("\n");
+    }
+    return result;
 }
 
 #[allow(dead_code)]
@@ -136,14 +145,12 @@ pub fn func(path: &Path) -> u64 {
     return read_to_string(path)
         .unwrap()
         .lines()
-        .map(split_formats)
+        .map(SpringConditions::new)
         //.map(eprintln_through)
         //.map(reduce_fmt)
         //.map(eprintln_through)
-        .map(combine_and_regex)
         .map(eprintln_through)
         .map(get_possible_replacements)
         .map(eprintln_through)
-        .map(|vec| vec.len() as u64)
         .sum();
 }
