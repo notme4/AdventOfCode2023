@@ -20,124 +20,147 @@ where
         .collect();
 }
 
+fn to_regex(s: &str) -> String {
+    let mut result = String::new();
+    for c in s.chars() {
+        if c == '?' {
+            result.push_str(r"[\.#]");
+        } else if c == '.' {
+            result.push_str("\\.+");
+        } else {
+            result.push(c);
+        }
+    }
+    return result;
+}
 #[derive(Debug, Clone)]
 struct SpringConditions {
-    springs: String,
-    consecutive_bad_springs: Vec<usize>,
-    regex: Regex,
+    string: String,
+    regex_springs: Regex,
+    consecutive_bad_springs: Vec<u64>,
 }
 
 impl SpringConditions {
     fn new(line: &str) -> SpringConditions {
         let (conditions, consecutives) = line.split_at(line.find(" ").unwrap());
         // removes redundant '.'
-        let conditions = str_to_vec_str(conditions.trim(), ".")
-            .into_iter()
-            .fold(".".to_string(), |s, v| format!("{s}{v}."));
-        let consecutives = str_to_vec::<usize>(consecutives.trim(), ",");
-        let regex_string = consecutives
+        let string = str_to_vec_str(conditions.trim(), ".")
             .iter()
-            .fold(r"\.+".to_string(), |s, v| format!("{s}#{{{v}}}\\.+"));
-        let regex = Regex::new(&regex_string).unwrap();
+            .fold(String::from("."), |s, v| format!("{s}{v}."));
+        let conditions = to_regex(&string);
+        let consecutives = str_to_vec::<u64>(consecutives.trim(), ",");
+        let regex_springs = Regex::new(&conditions).unwrap();
         return SpringConditions {
-            springs: conditions,
+            string: string,
+            regex_springs: regex_springs,
             consecutive_bad_springs: consecutives,
-            regex: regex,
         };
     }
 }
 
-// gets the next highest value with the same number of ones set
-// implementation adjusted from https://www.geeksforgeeks.org/next-higher-number-with-same-number-of-set-bits/
-struct Snoob {
-    i: u64,
-    max: u64,
+struct Replacer<'a> {
+    fills: &'a Vec<u64>,
+    gaps: Vec<u64>,
+    done: bool,
 }
 
-impl Snoob {
-    fn new(num_set_bits: u8, max: u64) -> Snoob {
-        let i = 2_u64.pow(num_set_bits as u32) - 1;
-        return Snoob { i: i, max: max };
+impl<'a> Replacer<'a> {
+    fn new(fills: &'a Vec<u64>, total_size: u64) -> Replacer {
+        let mut gaps = Vec::<u64>::with_capacity(fills.len() + 1);
+        gaps.resize(fills.len() + 1, 1);
+        let filled: u64 = fills.iter().sum();
+        let initial_gapped: u64 = fills.len().try_into().unwrap();
+        gaps[0] = total_size.saturating_sub(filled + initial_gapped);
+        return Replacer {
+            fills: fills,
+            gaps: gaps,
+            done: false,
+        };
+    }
+
+    fn get_possible_replacement(&self) -> String {
+        let mut s = String::new();
+        let mut gaps = self.gaps.iter();
+        s.push_str(&".".repeat((*gaps.next().unwrap()).try_into().unwrap()));
+
+        for (fill, gap) in self.fills.iter().zip(gaps) {
+            s.push_str(&"#".repeat((*fill).try_into().unwrap()));
+            s.push_str(&".".repeat((*gap).try_into().unwrap()));
+        }
+        return s;
     }
 }
 
-impl Iterator for Snoob {
-    type Item = u64;
+impl<'a> Iterator for Replacer<'a> {
+    type Item = String;
 
     fn next(&mut self) -> Option<Self::Item> {
-        if self.i == 0 {
+        if self.done {
             return None;
         }
-        let old = self.i;
-        let x = self.i as i64;
-        let right_one = x & -x;
-        let next_higher_one_bit = x + right_one;
-        let mut right_ones_pattern = x ^ next_higher_one_bit;
-        right_ones_pattern /= right_one;
-        right_ones_pattern >>= 2;
-        self.i = (next_higher_one_bit | right_ones_pattern) as u64;
-        if old <= self.max {
-            return Some(old);
-        }
-        return None;
-    }
-}
+        let res = self.get_possible_replacement();
+        //eprintln!("res: {res}");
 
-fn get_next_possible_replacement(s: String, i: u64) -> String {
-    let mut j = 1;
-    let mut s = s.chars().collect::<Vec<char>>();
-    for c in s.iter_mut().rev() {
-        if *c == '?' {
-            if j & i != 0 {
-                *c = '#';
-            } else {
-                *c = '.';
-            }
-            j <<= 1;
+        if self.gaps.iter().all(|u| *u == 1) {
+            self.done = true;
+            return Some(res);
         }
+
+        let gaps_size: u64 = self.gaps.iter().sum();
+
+        let mut i = 0;
+        while self.gaps[i] == 1 {
+            i += 1;
+        }
+
+        if i == self.gaps.len() - 1 {
+            self.done = true;
+            return Some(res);
+        }
+
+        self.gaps[i] -= 1;
+        self.gaps[i + 1] += 1;
+
+        for j in 0..(i + 1) {
+            self.gaps[j] = 1;
+        }
+        self.gaps[0] += gaps_size - self.gaps.iter().sum::<u64>();
+
+        if gaps_size != self.gaps.iter().sum() {
+            eprintln!("I was an idiot fixing gaps");
+        }
+
+        return Some(res);
     }
-    return s.iter().collect();
 }
 
 fn get_possible_replacements(spring_conditions: SpringConditions) -> u64 {
-    if !spring_conditions.springs.contains("?") {
-        return 1;
-    }
-    let num_hashes = spring_conditions
-        .springs
-        .chars()
-        .filter(|c| *c == '#')
-        .count();
-    let num_needed_hashes: usize = spring_conditions.consecutive_bad_springs.iter().sum();
-    //eprint!("start get_possible_replacements: ");
-    let num_set_bits = <usize as TryInto<u8>>::try_into(num_needed_hashes - num_hashes).unwrap();
-    if num_set_bits == 0 {
-        return 1;
-    }
-    let num_q_marks = spring_conditions
-        .springs
-        .chars()
-        .filter(|c| *c == '?')
-        .count();
-    let max = 2_u64.pow(num_q_marks.try_into().unwrap());
-    let mut result = 0;
-    eprintln!("num_set_bits: {num_set_bits}, max: {max}");
-    for i in Snoob::new(num_set_bits, max) {
-        //eprint!(" i: {i}");
-        let s = get_next_possible_replacement(spring_conditions.springs.clone(), i);
-        eprint!("s: {s}");
-        if spring_conditions.regex.is_match_at(&s, 0) {
-            eprint!(" <<< ");
-            result += 1;
-        }
-        eprint!("\n");
-    }
-    return result;
+    eprintln!("string: {}", spring_conditions.string);
+    eprintln!("regex: {}", spring_conditions.regex_springs);
+    eprintln!(
+        "consecutives: {:?}",
+        spring_conditions.consecutive_bad_springs
+    );
+    let replacer = Replacer::new(
+        &spring_conditions.consecutive_bad_springs,
+        spring_conditions.string.len().try_into().unwrap(),
+    );
+
+    return replacer
+        .map(eprint_through)
+        .filter(|r| spring_conditions.regex_springs.is_match_at(r, 0))
+        .map(|v| {
+            eprint!(" <<<");
+            return v;
+        })
+        .count()
+        .try_into()
+        .unwrap();
 }
 
 #[allow(dead_code)]
-fn eprintln_through<T: std::fmt::Debug>(t: T) -> T {
-    eprint!("{:?}\n", t);
+fn eprint_through<T: std::fmt::Debug>(t: T) -> T {
+    eprint!("\n{:?}", t);
     return t;
 }
 
@@ -146,11 +169,6 @@ pub fn func(path: &Path) -> u64 {
         .unwrap()
         .lines()
         .map(SpringConditions::new)
-        //.map(eprintln_through)
-        //.map(reduce_fmt)
-        //.map(eprintln_through)
-        .map(eprintln_through)
         .map(get_possible_replacements)
-        .map(eprintln_through)
         .sum();
 }
