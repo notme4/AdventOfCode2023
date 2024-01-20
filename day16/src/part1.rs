@@ -139,6 +139,7 @@ fn eprint_map(map: &Map) {
                 0b1101 => eprint!("←"),
                 0b1110 => eprint!("→"),
                 0b1111 => eprint!("#"),
+                _ => panic!("impossible option"),
             }
         }
         eprintln!("");
